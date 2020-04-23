@@ -1,0 +1,2023 @@
+Array
+(
+    [cases_time_series] => Array
+        (
+            [0] => Array
+                (
+                    [dailyconfirmed] => 1
+                    [dailydeceased] => 0
+                    [dailyrecovered] => 0
+                    [date] => 30 January 
+                    [totalconfirmed] => 1
+                    [totaldeceased] => 0
+                    [totalrecovered] => 0
+                )
+
+            [1] => Array
+                (
+                    [dailyconfirmed] => 0
+                    [dailydeceased] => 0
+                    [dailyrecovered] => 0
+                    [date] => 31 January 
+                    [totalconfirmed] => 1
+                    [totaldeceased] => 0
+                    [totalrecovered] => 0
+                )
+
+            [2] => Array
+                (
+                    [dailyconfirmed] => 0
+                    [dailydeceased] => 0
+                    [dailyrecovered] => 0
+                    [date] => 01 February 
+                    [totalconfirmed] => 1
+                    [totaldeceased] => 0
+                    [totalrecovered] => 0
+                )
+
+            [3] => Array
+                (
+                    [dailyconfirmed] => 1
+                    [dailydeceased] => 0
+                    [dailyrecovered] => 0
+                    [date] => 02 February 
+                    [totalconfirmed] => 2
+                    [totaldeceased] => 0
+                    [totalrecovered] => 0
+                )
+
+            [4] => Array
+                (
+                    [dailyconfirmed] => 1
+                    [dailydeceased] => 0
+                    [dailyrecovered] => 0
+                    [date] => 03 February 
+                    [totalconfirmed] => 3
+                    [totaldeceased] => 0
+                    [totalrecovered] => 0
+                )
+
+            [5] => Array
+                (
+                    [dailyconfirmed] => 0
+                    [dailydeceased] => 0
+                    [dailyrecovered] => 0
+                    [date] => 04 February 
+                    [totalconfirmed] => 3
+                    [totaldeceased] => 0
+                    [totalrecovered] => 0
+                )
+
+            [6] => Array
+                (
+                    [dailyconfirmed] => 0
+                    [dailydeceased] => 0
+                    [dailyrecovered] => 0
+                    [date] => 05 February 
+                    [totalconfirmed] => 3
+                    [totaldeceased] => 0
+                    [totalrecovered] => 0
+                )
+
+            [7] => Array
+                (
+                    [dailyconfirmed] => 0
+                    [dailydeceased] => 0
+                    [dailyrecovered] => 0
+                    [date] => 06 February 
+                    [totalconfirmed] => 3
+                    [totaldeceased] => 0
+                    [totalrecovered] => 0
+                )
+
+            [8] => Array
+                (
+                    [dailyconfirmed] => 0
+                    [dailydeceased] => 0
+                    [dailyrecovered] => 0
+                    [date] => 07 February 
+                    [totalconfirmed] => 3
+                    [totaldeceased] => 0
+                    [totalrecovered] => 0
+                )
+
+            [9] => Array
+                (
+                    [dailyconfirmed] => 0
+                    [dailydeceased] => 0
+                    [dailyrecovered] => 0
+                    [date] => 08 February 
+                    [totalconfirmed] => 3
+                    [totaldeceased] => 0
+                    [totalrecovered] => 0
+                )
+
+            [10] => Array
+                (
+                    [dailyconfirmed] => 0
+                    [dailydeceased] => 0
+                    [dailyrecovered] => 0
+                    [date] => 09 February 
+                    [totalconfirmed] => 3
+                    [totaldeceased] => 0
+                    [totalrecovered] => 0
+                )
+
+            [11] => Array
+                (
+                    [dailyconfirmed] => 0
+                    [dailydeceased] => 0
+                    [dailyrecovered] => 0
+                    [date] => 10 February 
+                    [totalconfirmed] => 3
+                    [totaldeceased] => 0
+                    [totalrecovered] => 0
+                )
+
+            [12] => Array
+                (
+                    [dailyconfirmed] => 0
+                    [dailydeceased] => 0
+                    [dailyrecovered] => 0
+                    [date] => 11 February 
+                    [totalconfirmed] => 3
+                    [totaldeceased] => 0
+                    [totalrecovered] => 0
+                )
+
+            [13] => Array
+                (
+                    [dailyconfirmed] => 0
+                    [dailydeceased] => 0
+                    [dailyrecovered] => 0
+                    [date] => 12 February 
+                    [totalconfirmed] => 3
+                    [totaldeceased] => 0
+                    [totalrecovered] => 0
+                )
+
+            [14] => Array
+                (
+                    [dailyconfirmed] => 0
+                    [dailydeceased] => 0
+                    [dailyrecovered] => 1
+                    [date] => 13 February 
+                    [totalconfirmed] => 3
+                    [totaldeceased] => 0
+                    [totalrecovered] => 1
+                )
+
+            [15] => Array
+                (
+                    [dailyconfirmed] => 0
+                    [dailydeceased] => 0
+                    [dailyrecovered] => 0
+                    [date] => 14 February 
+                    [totalconfirmed] => 3
+                    [totaldeceased] => 0
+                    [totalrecovered] => 1
+                )
+
+            [16] => Array
+                (
+                    [dailyconfirmed] => 0
+                    [dailydeceased] => 0
+                    [dailyrecovered] => 0
+                    [date] => 15 February 
+                    [totalconfirmed] => 3
+                    [totaldeceased] => 0
+                    [totalrecovered] => 1
+                )
+
+            [17] => Array
+                (
+                    [dailyconfirmed] => 0
+                    [dailydeceased] => 0
+                    [dailyrecovered] => 1
+                    [date] => 16 February 
+                    [totalconfirmed] => 3
+                    [totaldeceased] => 0
+                    [totalrecovered] => 2
+                )
+
+            [18] => Array
+                (
+                    [dailyconfirmed] => 0
+                    [dailydeceased] => 0
+                    [dailyrecovered] => 0
+                    [date] => 17 February 
+                    [totalconfirmed] => 3
+                    [totaldeceased] => 0
+                    [totalrecovered] => 2
+                )
+
+            [19] => Array
+                (
+                    [dailyconfirmed] => 0
+                    [dailydeceased] => 0
+                    [dailyrecovered] => 0
+                    [date] => 18 February 
+                    [totalconfirmed] => 3
+                    [totaldeceased] => 0
+                    [totalrecovered] => 2
+                )
+
+            [20] => Array
+                (
+                    [dailyconfirmed] => 0
+                    [dailydeceased] => 0
+                    [dailyrecovered] => 0
+                    [date] => 19 February 
+                    [totalconfirmed] => 3
+                    [totaldeceased] => 0
+                    [totalrecovered] => 2
+                )
+
+            [21] => Array
+                (
+                    [dailyconfirmed] => 0
+                    [dailydeceased] => 0
+                    [dailyrecovered] => 1
+                    [date] => 20 February 
+                    [totalconfirmed] => 3
+                    [totaldeceased] => 0
+                    [totalrecovered] => 3
+                )
+
+            [22] => Array
+                (
+                    [dailyconfirmed] => 0
+                    [dailydeceased] => 0
+                    [dailyrecovered] => 0
+                    [date] => 21 February 
+                    [totalconfirmed] => 3
+                    [totaldeceased] => 0
+                    [totalrecovered] => 3
+                )
+
+            [23] => Array
+                (
+                    [dailyconfirmed] => 0
+                    [dailydeceased] => 0
+                    [dailyrecovered] => 0
+                    [date] => 22 February 
+                    [totalconfirmed] => 3
+                    [totaldeceased] => 0
+                    [totalrecovered] => 3
+                )
+
+            [24] => Array
+                (
+                    [dailyconfirmed] => 0
+                    [dailydeceased] => 0
+                    [dailyrecovered] => 0
+                    [date] => 23 February 
+                    [totalconfirmed] => 3
+                    [totaldeceased] => 0
+                    [totalrecovered] => 3
+                )
+
+            [25] => Array
+                (
+                    [dailyconfirmed] => 0
+                    [dailydeceased] => 0
+                    [dailyrecovered] => 0
+                    [date] => 24 February 
+                    [totalconfirmed] => 3
+                    [totaldeceased] => 0
+                    [totalrecovered] => 3
+                )
+
+            [26] => Array
+                (
+                    [dailyconfirmed] => 0
+                    [dailydeceased] => 0
+                    [dailyrecovered] => 0
+                    [date] => 25 February 
+                    [totalconfirmed] => 3
+                    [totaldeceased] => 0
+                    [totalrecovered] => 3
+                )
+
+            [27] => Array
+                (
+                    [dailyconfirmed] => 0
+                    [dailydeceased] => 0
+                    [dailyrecovered] => 0
+                    [date] => 26 February 
+                    [totalconfirmed] => 3
+                    [totaldeceased] => 0
+                    [totalrecovered] => 3
+                )
+
+            [28] => Array
+                (
+                    [dailyconfirmed] => 0
+                    [dailydeceased] => 0
+                    [dailyrecovered] => 0
+                    [date] => 27 February 
+                    [totalconfirmed] => 3
+                    [totaldeceased] => 0
+                    [totalrecovered] => 3
+                )
+
+            [29] => Array
+                (
+                    [dailyconfirmed] => 0
+                    [dailydeceased] => 0
+                    [dailyrecovered] => 0
+                    [date] => 28 February 
+                    [totalconfirmed] => 3
+                    [totaldeceased] => 0
+                    [totalrecovered] => 3
+                )
+
+            [30] => Array
+                (
+                    [dailyconfirmed] => 0
+                    [dailydeceased] => 0
+                    [dailyrecovered] => 0
+                    [date] => 29 February 
+                    [totalconfirmed] => 3
+                    [totaldeceased] => 0
+                    [totalrecovered] => 3
+                )
+
+            [31] => Array
+                (
+                    [dailyconfirmed] => 0
+                    [dailydeceased] => 0
+                    [dailyrecovered] => 0
+                    [date] => 01 March 
+                    [totalconfirmed] => 3
+                    [totaldeceased] => 0
+                    [totalrecovered] => 3
+                )
+
+            [32] => Array
+                (
+                    [dailyconfirmed] => 2
+                    [dailydeceased] => 0
+                    [dailyrecovered] => 0
+                    [date] => 02 March 
+                    [totalconfirmed] => 5
+                    [totaldeceased] => 0
+                    [totalrecovered] => 3
+                )
+
+            [33] => Array
+                (
+                    [dailyconfirmed] => 1
+                    [dailydeceased] => 0
+                    [dailyrecovered] => 0
+                    [date] => 03 March 
+                    [totalconfirmed] => 6
+                    [totaldeceased] => 0
+                    [totalrecovered] => 3
+                )
+
+            [34] => Array
+                (
+                    [dailyconfirmed] => 22
+                    [dailydeceased] => 0
+                    [dailyrecovered] => 0
+                    [date] => 04 March 
+                    [totalconfirmed] => 28
+                    [totaldeceased] => 0
+                    [totalrecovered] => 3
+                )
+
+            [35] => Array
+                (
+                    [dailyconfirmed] => 2
+                    [dailydeceased] => 0
+                    [dailyrecovered] => 0
+                    [date] => 05 March 
+                    [totalconfirmed] => 30
+                    [totaldeceased] => 0
+                    [totalrecovered] => 3
+                )
+
+            [36] => Array
+                (
+                    [dailyconfirmed] => 1
+                    [dailydeceased] => 0
+                    [dailyrecovered] => 0
+                    [date] => 06 March 
+                    [totalconfirmed] => 31
+                    [totaldeceased] => 0
+                    [totalrecovered] => 3
+                )
+
+            [37] => Array
+                (
+                    [dailyconfirmed] => 3
+                    [dailydeceased] => 0
+                    [dailyrecovered] => 0
+                    [date] => 07 March 
+                    [totalconfirmed] => 34
+                    [totaldeceased] => 0
+                    [totalrecovered] => 3
+                )
+
+            [38] => Array
+                (
+                    [dailyconfirmed] => 5
+                    [dailydeceased] => 0
+                    [dailyrecovered] => 0
+                    [date] => 08 March 
+                    [totalconfirmed] => 39
+                    [totaldeceased] => 0
+                    [totalrecovered] => 3
+                )
+
+            [39] => Array
+                (
+                    [dailyconfirmed] => 9
+                    [dailydeceased] => 0
+                    [dailyrecovered] => 0
+                    [date] => 09 March 
+                    [totalconfirmed] => 48
+                    [totaldeceased] => 0
+                    [totalrecovered] => 3
+                )
+
+            [40] => Array
+                (
+                    [dailyconfirmed] => 15
+                    [dailydeceased] => 0
+                    [dailyrecovered] => 1
+                    [date] => 10 March 
+                    [totalconfirmed] => 63
+                    [totaldeceased] => 0
+                    [totalrecovered] => 4
+                )
+
+            [41] => Array
+                (
+                    [dailyconfirmed] => 8
+                    [dailydeceased] => 0
+                    [dailyrecovered] => 0
+                    [date] => 11 March 
+                    [totalconfirmed] => 71
+                    [totaldeceased] => 0
+                    [totalrecovered] => 4
+                )
+
+            [42] => Array
+                (
+                    [dailyconfirmed] => 10
+                    [dailydeceased] => 1
+                    [dailyrecovered] => 0
+                    [date] => 12 March 
+                    [totalconfirmed] => 81
+                    [totaldeceased] => 1
+                    [totalrecovered] => 4
+                )
+
+            [43] => Array
+                (
+                    [dailyconfirmed] => 10
+                    [dailydeceased] => 0
+                    [dailyrecovered] => 6
+                    [date] => 13 March 
+                    [totalconfirmed] => 91
+                    [totaldeceased] => 1
+                    [totalrecovered] => 10
+                )
+
+            [44] => Array
+                (
+                    [dailyconfirmed] => 11
+                    [dailydeceased] => 1
+                    [dailyrecovered] => 0
+                    [date] => 14 March 
+                    [totalconfirmed] => 102
+                    [totaldeceased] => 2
+                    [totalrecovered] => 10
+                )
+
+            [45] => Array
+                (
+                    [dailyconfirmed] => 10
+                    [dailydeceased] => 0
+                    [dailyrecovered] => 3
+                    [date] => 15 March 
+                    [totalconfirmed] => 112
+                    [totaldeceased] => 2
+                    [totalrecovered] => 13
+                )
+
+            [46] => Array
+                (
+                    [dailyconfirmed] => 14
+                    [dailydeceased] => 0
+                    [dailyrecovered] => 1
+                    [date] => 16 March 
+                    [totalconfirmed] => 126
+                    [totaldeceased] => 2
+                    [totalrecovered] => 14
+                )
+
+            [47] => Array
+                (
+                    [dailyconfirmed] => 20
+                    [dailydeceased] => 1
+                    [dailyrecovered] => 1
+                    [date] => 17 March 
+                    [totalconfirmed] => 146
+                    [totaldeceased] => 3
+                    [totalrecovered] => 15
+                )
+
+            [48] => Array
+                (
+                    [dailyconfirmed] => 25
+                    [dailydeceased] => 0
+                    [dailyrecovered] => 0
+                    [date] => 18 March 
+                    [totalconfirmed] => 171
+                    [totaldeceased] => 3
+                    [totalrecovered] => 15
+                )
+
+            [49] => Array
+                (
+                    [dailyconfirmed] => 27
+                    [dailydeceased] => 1
+                    [dailyrecovered] => 5
+                    [date] => 19 March 
+                    [totalconfirmed] => 198
+                    [totaldeceased] => 4
+                    [totalrecovered] => 20
+                )
+
+            [50] => Array
+                (
+                    [dailyconfirmed] => 58
+                    [dailydeceased] => 0
+                    [dailyrecovered] => 3
+                    [date] => 20 March 
+                    [totalconfirmed] => 256
+                    [totaldeceased] => 4
+                    [totalrecovered] => 23
+                )
+
+            [51] => Array
+                (
+                    [dailyconfirmed] => 78
+                    [dailydeceased] => 0
+                    [dailyrecovered] => 0
+                    [date] => 21 March 
+                    [totalconfirmed] => 334
+                    [totaldeceased] => 4
+                    [totalrecovered] => 23
+                )
+
+            [52] => Array
+                (
+                    [dailyconfirmed] => 69
+                    [dailydeceased] => 3
+                    [dailyrecovered] => 0
+                    [date] => 22 March 
+                    [totalconfirmed] => 403
+                    [totaldeceased] => 7
+                    [totalrecovered] => 23
+                )
+
+            [53] => Array
+                (
+                    [dailyconfirmed] => 94
+                    [dailydeceased] => 2
+                    [dailyrecovered] => 2
+                    [date] => 23 March 
+                    [totalconfirmed] => 497
+                    [totaldeceased] => 9
+                    [totalrecovered] => 25
+                )
+
+            [54] => Array
+                (
+                    [dailyconfirmed] => 74
+                    [dailydeceased] => 1
+                    [dailyrecovered] => 15
+                    [date] => 24 March 
+                    [totalconfirmed] => 571
+                    [totaldeceased] => 10
+                    [totalrecovered] => 40
+                )
+
+            [55] => Array
+                (
+                    [dailyconfirmed] => 86
+                    [dailydeceased] => 1
+                    [dailyrecovered] => 3
+                    [date] => 25 March 
+                    [totalconfirmed] => 657
+                    [totaldeceased] => 11
+                    [totalrecovered] => 43
+                )
+
+            [56] => Array
+                (
+                    [dailyconfirmed] => 73
+                    [dailydeceased] => 5
+                    [dailyrecovered] => 7
+                    [date] => 26 March 
+                    [totalconfirmed] => 730
+                    [totaldeceased] => 16
+                    [totalrecovered] => 50
+                )
+
+            [57] => Array
+                (
+                    [dailyconfirmed] => 153
+                    [dailydeceased] => 3
+                    [dailyrecovered] => 25
+                    [date] => 27 March 
+                    [totalconfirmed] => 883
+                    [totaldeceased] => 19
+                    [totalrecovered] => 75
+                )
+
+            [58] => Array
+                (
+                    [dailyconfirmed] => 136
+                    [dailydeceased] => 5
+                    [dailyrecovered] => 10
+                    [date] => 28 March 
+                    [totalconfirmed] => 1019
+                    [totaldeceased] => 24
+                    [totalrecovered] => 85
+                )
+
+            [59] => Array
+                (
+                    [dailyconfirmed] => 120
+                    [dailydeceased] => 3
+                    [dailyrecovered] => 17
+                    [date] => 29 March 
+                    [totalconfirmed] => 1139
+                    [totaldeceased] => 27
+                    [totalrecovered] => 102
+                )
+
+            [60] => Array
+                (
+                    [dailyconfirmed] => 187
+                    [dailydeceased] => 14
+                    [dailyrecovered] => 35
+                    [date] => 30 March 
+                    [totalconfirmed] => 1326
+                    [totaldeceased] => 41
+                    [totalrecovered] => 137
+                )
+
+            [61] => Array
+                (
+                    [dailyconfirmed] => 309
+                    [dailydeceased] => 6
+                    [dailyrecovered] => 13
+                    [date] => 31 March 
+                    [totalconfirmed] => 1635
+                    [totaldeceased] => 47
+                    [totalrecovered] => 150
+                )
+
+            [62] => Array
+                (
+                    [dailyconfirmed] => 424
+                    [dailydeceased] => 6
+                    [dailyrecovered] => 19
+                    [date] => 01 April 
+                    [totalconfirmed] => 2059
+                    [totaldeceased] => 53
+                    [totalrecovered] => 169
+                )
+
+            [63] => Array
+                (
+                    [dailyconfirmed] => 486
+                    [dailydeceased] => 16
+                    [dailyrecovered] => 22
+                    [date] => 02 April 
+                    [totalconfirmed] => 2545
+                    [totaldeceased] => 69
+                    [totalrecovered] => 191
+                )
+
+            [64] => Array
+                (
+                    [dailyconfirmed] => 560
+                    [dailydeceased] => 14
+                    [dailyrecovered] => 39
+                    [date] => 03 April 
+                    [totalconfirmed] => 3105
+                    [totaldeceased] => 83
+                    [totalrecovered] => 230
+                )
+
+            [65] => Array
+                (
+                    [dailyconfirmed] => 579
+                    [dailydeceased] => 13
+                    [dailyrecovered] => 56
+                    [date] => 04 April 
+                    [totalconfirmed] => 3684
+                    [totaldeceased] => 96
+                    [totalrecovered] => 286
+                )
+
+            [66] => Array
+                (
+                    [dailyconfirmed] => 609
+                    [dailydeceased] => 22
+                    [dailyrecovered] => 43
+                    [date] => 05 April 
+                    [totalconfirmed] => 4293
+                    [totaldeceased] => 118
+                    [totalrecovered] => 329
+                )
+
+            [67] => Array
+                (
+                    [dailyconfirmed] => 484
+                    [dailydeceased] => 16
+                    [dailyrecovered] => 65
+                    [date] => 06 April 
+                    [totalconfirmed] => 4777
+                    [totaldeceased] => 134
+                    [totalrecovered] => 394
+                )
+
+            [68] => Array
+                (
+                    [dailyconfirmed] => 572
+                    [dailydeceased] => 27
+                    [dailyrecovered] => 75
+                    [date] => 07 April 
+                    [totalconfirmed] => 5349
+                    [totaldeceased] => 161
+                    [totalrecovered] => 469
+                )
+
+            [69] => Array
+                (
+                    [dailyconfirmed] => 565
+                    [dailydeceased] => 20
+                    [dailyrecovered] => 96
+                    [date] => 08 April 
+                    [totalconfirmed] => 5914
+                    [totaldeceased] => 181
+                    [totalrecovered] => 565
+                )
+
+            [70] => Array
+                (
+                    [dailyconfirmed] => 813
+                    [dailydeceased] => 46
+                    [dailyrecovered] => 70
+                    [date] => 09 April 
+                    [totalconfirmed] => 6727
+                    [totaldeceased] => 227
+                    [totalrecovered] => 635
+                )
+
+            [71] => Array
+                (
+                    [dailyconfirmed] => 871
+                    [dailydeceased] => 22
+                    [dailyrecovered] => 151
+                    [date] => 10 April 
+                    [totalconfirmed] => 7598
+                    [totaldeceased] => 249
+                    [totalrecovered] => 786
+                )
+
+            [72] => Array
+                (
+                    [dailyconfirmed] => 854
+                    [dailydeceased] => 40
+                    [dailyrecovered] => 186
+                    [date] => 11 April 
+                    [totalconfirmed] => 8452
+                    [totaldeceased] => 289
+                    [totalrecovered] => 972
+                )
+
+            [73] => Array
+                (
+                    [dailyconfirmed] => 758
+                    [dailydeceased] => 42
+                    [dailyrecovered] => 114
+                    [date] => 12 April 
+                    [totalconfirmed] => 9210
+                    [totaldeceased] => 331
+                    [totalrecovered] => 1086
+                )
+
+            [74] => Array
+                (
+                    [dailyconfirmed] => 1243
+                    [dailydeceased] => 27
+                    [dailyrecovered] => 112
+                    [date] => 13 April 
+                    [totalconfirmed] => 10453
+                    [totaldeceased] => 358
+                    [totalrecovered] => 1198
+                )
+
+            [75] => Array
+                (
+                    [dailyconfirmed] => 1031
+                    [dailydeceased] => 37
+                    [dailyrecovered] => 167
+                    [date] => 14 April 
+                    [totalconfirmed] => 11484
+                    [totaldeceased] => 395
+                    [totalrecovered] => 1365
+                )
+
+            [76] => Array
+                (
+                    [dailyconfirmed] => 886
+                    [dailydeceased] => 27
+                    [dailyrecovered] => 144
+                    [date] => 15 April 
+                    [totalconfirmed] => 12370
+                    [totaldeceased] => 422
+                    [totalrecovered] => 1509
+                )
+
+            [77] => Array
+                (
+                    [dailyconfirmed] => 1061
+                    [dailydeceased] => 26
+                    [dailyrecovered] => 258
+                    [date] => 16 April 
+                    [totalconfirmed] => 13431
+                    [totaldeceased] => 448
+                    [totalrecovered] => 1767
+                )
+
+            [78] => Array
+                (
+                    [dailyconfirmed] => 922
+                    [dailydeceased] => 38
+                    [dailyrecovered] => 273
+                    [date] => 17 April 
+                    [totalconfirmed] => 14353
+                    [totaldeceased] => 486
+                    [totalrecovered] => 2040
+                )
+
+            [79] => Array
+                (
+                    [dailyconfirmed] => 1371
+                    [dailydeceased] => 35
+                    [dailyrecovered] => 426
+                    [date] => 18 April 
+                    [totalconfirmed] => 15724
+                    [totaldeceased] => 521
+                    [totalrecovered] => 2466
+                )
+
+            [80] => Array
+                (
+                    [dailyconfirmed] => 1580
+                    [dailydeceased] => 38
+                    [dailyrecovered] => 388
+                    [date] => 19 April 
+                    [totalconfirmed] => 17304
+                    [totaldeceased] => 559
+                    [totalrecovered] => 2854
+                )
+
+            [81] => Array
+                (
+                    [dailyconfirmed] => 1239
+                    [dailydeceased] => 33
+                    [dailyrecovered] => 419
+                    [date] => 20 April 
+                    [totalconfirmed] => 18543
+                    [totaldeceased] => 592
+                    [totalrecovered] => 3273
+                )
+
+            [82] => Array
+                (
+                    [dailyconfirmed] => 1537
+                    [dailydeceased] => 53
+                    [dailyrecovered] => 703
+                    [date] => 21 April 
+                    [totalconfirmed] => 20080
+                    [totaldeceased] => 645
+                    [totalrecovered] => 3976
+                )
+
+        )
+
+    [statewise] => Array
+        (
+            [0] => Array
+                (
+                    [active] => 15771
+                    [confirmed] => 20539
+                    [deaths] => 653
+                    [deltaconfirmed] => 459
+                    [deltadeaths] => 8
+                    [deltarecovered] => 139
+                    [lastupdatedtime] => 22/04/2020 18:47:37
+                    [recovered] => 4115
+                    [state] => Total
+                    [statecode] => TT
+                    [statenotes] => 
+                )
+
+            [1] => Array
+                (
+                    [active] => 4245
+                    [confirmed] => 5218
+                    [deaths] => 251
+                    [deltaconfirmed] => 0
+                    [deltadeaths] => 0
+                    [deltarecovered] => 0
+                    [lastupdatedtime] => 21/04/2020 20:17:38
+                    [recovered] => 722
+                    [state] => Maharashtra
+                    [statecode] => MH
+                    [statenotes] => 
+                )
+
+            [2] => Array
+                (
+                    [active] => 1498
+                    [confirmed] => 2156
+                    [deaths] => 47
+                    [deltaconfirmed] => 0
+                    [deltadeaths] => 0
+                    [deltarecovered] => 0
+                    [lastupdatedtime] => 21/04/2020 20:17:38
+                    [recovered] => 611
+                    [state] => Delhi
+                    [statecode] => DL
+                    [statenotes] => 
+                )
+
+            [3] => Array
+                (
+                    [active] => 2033
+                    [confirmed] => 2272
+                    [deaths] => 95
+                    [deltaconfirmed] => 94
+                    [deltadeaths] => 5
+                    [deltarecovered] => 5
+                    [lastupdatedtime] => 22/04/2020 11:32:37
+                    [recovered] => 144
+                    [state] => Gujarat
+                    [statecode] => GJ
+                    [statenotes] => 
+                )
+
+            [4] => Array
+                (
+                    [active] => 1513
+                    [confirmed] => 1868
+                    [deaths] => 27
+                    [deltaconfirmed] => 133
+                    [deltadeaths] => 1
+                    [deltarecovered] => 54
+                    [lastupdatedtime] => 22/04/2020 15:27:38
+                    [recovered] => 328
+                    [state] => Rajasthan
+                    [statecode] => RJ
+                    [statenotes] => 
+                )
+
+            [5] => Array
+                (
+                    [active] => 949
+                    [confirmed] => 1629
+                    [deaths] => 18
+                    [deltaconfirmed] => 33
+                    [deltadeaths] => 0
+                    [deltarecovered] => 27
+                    [lastupdatedtime] => 22/04/2020 18:17:40
+                    [recovered] => 662
+                    [state] => Tamil Nadu
+                    [statecode] => TN
+                    [statenotes] => 
+                )
+
+            [6] => Array
+                (
+                    [active] => 1355
+                    [confirmed] => 1587
+                    [deaths] => 80
+                    [deltaconfirmed] => 35
+                    [deltadeaths] => 0
+                    [deltarecovered] => 4
+                    [lastupdatedtime] => 21/04/2020 17:57:38
+                    [recovered] => 152
+                    [state] => Madhya Pradesh
+                    [statecode] => MP
+                    [statenotes] => 
+                )
+
+            [7] => Array
+                (
+                    [active] => 1154
+                    [confirmed] => 1337
+                    [deaths] => 21
+                    [deltaconfirmed] => 0
+                    [deltadeaths] => 0
+                    [deltarecovered] => 0
+                    [lastupdatedtime] => 21/04/2020 22:22:38
+                    [recovered] => 162
+                    [state] => Uttar Pradesh
+                    [statecode] => UP
+                    [statenotes] => 
+                )
+
+            [8] => Array
+                (
+                    [active] => 711
+                    [confirmed] => 928
+                    [deaths] => 23
+                    [deltaconfirmed] => 0
+                    [deltadeaths] => 0
+                    [deltarecovered] => 0
+                    [lastupdatedtime] => 21/04/2020 20:17:41
+                    [recovered] => 194
+                    [state] => Telangana
+                    [statecode] => TG
+                    [statenotes] => 
+                )
+
+            [9] => Array
+                (
+                    [active] => 669
+                    [confirmed] => 813
+                    [deaths] => 24
+                    [deltaconfirmed] => 56
+                    [deltadeaths] => 2
+                    [deltarecovered] => 24
+                    [lastupdatedtime] => 22/04/2020 12:22:37
+                    [recovered] => 120
+                    [state] => Andhra Pradesh
+                    [statecode] => AP
+                    [statenotes] => 
+                )
+
+            [10] => Array
+                (
+                    [active] => 281
+                    [confirmed] => 427
+                    [deaths] => 17
+                    [deltaconfirmed] => 9
+                    [deltadeaths] => 0
+                    [deltarecovered] => 0
+                    [lastupdatedtime] => 22/04/2020 18:17:41
+                    [recovered] => 129
+                    [state] => Karnataka
+                    [statecode] => KA
+                    [statenotes] => 
+                )
+
+            [11] => Array
+                (
+                    [active] => 127
+                    [confirmed] => 437
+                    [deaths] => 2
+                    [deltaconfirmed] => 11
+                    [deltadeaths] => 0
+                    [deltarecovered] => 1
+                    [lastupdatedtime] => 22/04/2020 18:07:37
+                    [recovered] => 308
+                    [state] => Kerala
+                    [statecode] => KL
+                    [statenotes] => 
+                )
+
+            [12] => Array
+                (
+                    [active] => 310
+                    [confirmed] => 407
+                    [deaths] => 5
+                    [deltaconfirmed] => 27
+                    [deltadeaths] => 0
+                    [deltarecovered] => 11
+                    [lastupdatedtime] => 22/04/2020 16:57:38
+                    [recovered] => 92
+                    [state] => Jammu and Kashmir
+                    [statecode] => JK
+                    [statenotes] => 
+                )
+
+            [13] => Array
+                (
+                    [active] => 335
+                    [confirmed] => 423
+                    [deaths] => 15
+                    [deltaconfirmed] => 31
+                    [deltadeaths] => 0
+                    [deltarecovered] => 0
+                    [lastupdatedtime] => 22/04/2020 09:42:38
+                    [recovered] => 73
+                    [state] => West Bengal
+                    [statecode] => WB
+                    [statenotes] => WB numbers are currently updated according to https://www.mohfw.gov.in
+                )
+
+            [14] => Array
+                (
+                    [active] => 104
+                    [confirmed] => 260
+                    [deaths] => 3
+                    [deltaconfirmed] => 5
+                    [deltadeaths] => 0
+                    [deltarecovered] => 6
+                    [lastupdatedtime] => 22/04/2020 16:17:40
+                    [recovered] => 153
+                    [state] => Haryana
+                    [statecode] => HR
+                    [statenotes] => 1 death in Ambala unaccounted.
+                )
+
+            [15] => Array
+                (
+                    [active] => 188
+                    [confirmed] => 257
+                    [deaths] => 16
+                    [deltaconfirmed] => 6
+                    [deltadeaths] => 0
+                    [deltarecovered] => 4
+                    [lastupdatedtime] => 22/04/2020 18:47:38
+                    [recovered] => 53
+                    [state] => Punjab
+                    [statecode] => PB
+                    [statenotes] => 
+                )
+
+            [16] => Array
+                (
+                    [active] => 97
+                    [confirmed] => 141
+                    [deaths] => 2
+                    [deltaconfirmed] => 15
+                    [deltadeaths] => 0
+                    [deltarecovered] => 0
+                    [lastupdatedtime] => 22/04/2020 15:22:38
+                    [recovered] => 42
+                    [state] => Bihar
+                    [statecode] => BR
+                    [statenotes] => 
+                )
+
+            [17] => Array
+                (
+                    [active] => 50
+                    [confirmed] => 83
+                    [deaths] => 1
+                    [deltaconfirmed] => 4
+                    [deltadeaths] => 0
+                    [deltarecovered] => 2
+                    [lastupdatedtime] => 22/04/2020 15:57:38
+                    [recovered] => 32
+                    [state] => Odisha
+                    [statecode] => OR
+                    [statenotes] => 
+                )
+
+            [18] => Array
+                (
+                    [active] => 27
+                    [confirmed] => 46
+                    [deaths] => 0
+                    [deltaconfirmed] => 0
+                    [deltadeaths] => 0
+                    [deltarecovered] => 0
+                    [lastupdatedtime] => 18/04/2020 15:26:17
+                    [recovered] => 19
+                    [state] => Uttarakhand
+                    [statecode] => UT
+                    [statenotes] => 
+                )
+
+            [19] => Array
+                (
+                    [active] => 40
+                    [confirmed] => 46
+                    [deaths] => 2
+                    [deltaconfirmed] => 0
+                    [deltadeaths] => 0
+                    [deltarecovered] => 0
+                    [lastupdatedtime] => 21/04/2020 11:07:38
+                    [recovered] => 4
+                    [state] => Jharkhand
+                    [statecode] => JH
+                    [statenotes] => 
+                )
+
+            [20] => Array
+                (
+                    [active] => 21
+                    [confirmed] => 39
+                    [deaths] => 2
+                    [deltaconfirmed] => 0
+                    [deltadeaths] => 0
+                    [deltarecovered] => 0
+                    [lastupdatedtime] => 18/04/2020 19:15:06
+                    [recovered] => 16
+                    [state] => Himachal Pradesh
+                    [statecode] => HP
+                    [statenotes] => Death of Tibetan refugee included
+                )
+
+            [21] => Array
+                (
+                    [active] => 10
+                    [confirmed] => 36
+                    [deaths] => 0
+                    [deltaconfirmed] => 0
+                    [deltadeaths] => 0
+                    [deltarecovered] => 1
+                    [lastupdatedtime] => 22/04/2020 12:22:38
+                    [recovered] => 26
+                    [state] => Chhattisgarh
+                    [statecode] => CT
+                    [statenotes] => 
+                )
+
+            [22] => Array
+                (
+                    [active] => 15
+                    [confirmed] => 35
+                    [deaths] => 1
+                    [deltaconfirmed] => 0
+                    [deltadeaths] => 0
+                    [deltarecovered] => 0
+                    [lastupdatedtime] => 20/04/2020 08:45:06
+                    [recovered] => 19
+                    [state] => Assam
+                    [statecode] => AS
+                    [statenotes] => Includes one case from Nagaland
+                )
+
+            [23] => Array
+                (
+                    [active] => 13
+                    [confirmed] => 27
+                    [deaths] => 0
+                    [deltaconfirmed] => 0
+                    [deltadeaths] => 0
+                    [deltarecovered] => 0
+                    [lastupdatedtime] => 19/04/2020 17:45:25
+                    [recovered] => 14
+                    [state] => Chandigarh
+                    [statecode] => CH
+                    [statenotes] => 
+                )
+
+            [24] => Array
+                (
+                    [active] => 4
+                    [confirmed] => 18
+                    [deaths] => 0
+                    [deltaconfirmed] => 0
+                    [deltadeaths] => 0
+                    [deltarecovered] => 0
+                    [lastupdatedtime] => 16/04/2020 15:13:07
+                    [recovered] => 14
+                    [state] => Ladakh
+                    [statecode] => LA
+                    [statenotes] => 
+                )
+
+            [25] => Array
+                (
+                    [active] => 6
+                    [confirmed] => 17
+                    [deaths] => 0
+                    [deltaconfirmed] => 0
+                    [deltadeaths] => 0
+                    [deltarecovered] => 0
+                    [lastupdatedtime] => 20/04/2020 18:07:34
+                    [recovered] => 11
+                    [state] => Andaman and Nicobar Islands
+                    [statecode] => AN
+                    [statenotes] => 
+                )
+
+            [26] => Array
+                (
+                    [active] => 11
+                    [confirmed] => 12
+                    [deaths] => 1
+                    [deltaconfirmed] => 0
+                    [deltadeaths] => 0
+                    [deltarecovered] => 0
+                    [lastupdatedtime] => 18/04/2020 12:38:07
+                    [recovered] => 0
+                    [state] => Meghalaya
+                    [statecode] => ML
+                    [statenotes] => 
+                )
+
+            [27] => Array
+                (
+                    [active] => 0
+                    [confirmed] => 7
+                    [deaths] => 0
+                    [deltaconfirmed] => 0
+                    [deltadeaths] => 0
+                    [deltarecovered] => 0
+                    [lastupdatedtime] => 19/04/2020 17:04:07
+                    [recovered] => 7
+                    [state] => Goa
+                    [statecode] => GA
+                    [statenotes] => 
+                )
+
+            [28] => Array
+                (
+                    [active] => 3
+                    [confirmed] => 7
+                    [deaths] => 0
+                    [deltaconfirmed] => 0
+                    [deltadeaths] => 0
+                    [deltarecovered] => 0
+                    [lastupdatedtime] => 19/04/2020 08:25:07
+                    [recovered] => 4
+                    [state] => Puducherry
+                    [statecode] => PY
+                    [statenotes] => 
+                )
+
+            [29] => Array
+                (
+                    [active] => 0
+                    [confirmed] => 2
+                    [deaths] => 0
+                    [deltaconfirmed] => 0
+                    [deltadeaths] => 0
+                    [deltarecovered] => 0
+                    [lastupdatedtime] => 20/04/2020 10:04:08
+                    [recovered] => 2
+                    [state] => Manipur
+                    [statecode] => MN
+                    [statenotes] => 
+                )
+
+            [30] => Array
+                (
+                    [active] => 1
+                    [confirmed] => 2
+                    [deaths] => 0
+                    [deltaconfirmed] => 0
+                    [deltadeaths] => 0
+                    [deltarecovered] => 0
+                    [lastupdatedtime] => 10/04/2020 20:00:27
+                    [recovered] => 1
+                    [state] => Tripura
+                    [statecode] => TR
+                    [statenotes] => 
+                )
+
+            [31] => Array
+                (
+                    [active] => 1
+                    [confirmed] => 1
+                    [deaths] => 0
+                    [deltaconfirmed] => 0
+                    [deltadeaths] => 0
+                    [deltarecovered] => 0
+                    [lastupdatedtime] => 26/03/2020 07:19:29
+                    [recovered] => 0
+                    [state] => Mizoram
+                    [statecode] => MZ
+                    [statenotes] => 
+                )
+
+            [32] => Array
+                (
+                    [active] => 0
+                    [confirmed] => 1
+                    [deaths] => 0
+                    [deltaconfirmed] => 0
+                    [deltadeaths] => 0
+                    [deltarecovered] => 0
+                    [lastupdatedtime] => 16/04/2020 19:33:11
+                    [recovered] => 1
+                    [state] => Arunachal Pradesh
+                    [statecode] => AR
+                    [statenotes] => 
+                )
+
+            [33] => Array
+                (
+                    [active] => 0
+                    [confirmed] => 0
+                    [deaths] => 0
+                    [deltaconfirmed] => 0
+                    [deltadeaths] => 0
+                    [deltarecovered] => 0
+                    [lastupdatedtime] => 20/04/2020 08:45:07
+                    [recovered] => 0
+                    [state] => Nagaland
+                    [statecode] => NL
+                    [statenotes] => 
+                )
+
+            [34] => Array
+                (
+                    [active] => 0
+                    [confirmed] => 0
+                    [deaths] => 0
+                    [deltaconfirmed] => 0
+                    [deltadeaths] => 0
+                    [deltarecovered] => 0
+                    [lastupdatedtime] => 17/04/2020 15:03:07
+                    [recovered] => 0
+                    [state] => Dadra and Nagar Haveli
+                    [statecode] => DN
+                    [statenotes] => 
+                )
+
+            [35] => Array
+                (
+                    [active] => 0
+                    [confirmed] => 0
+                    [deaths] => 0
+                    [deltaconfirmed] => 0
+                    [deltadeaths] => 0
+                    [deltarecovered] => 0
+                    [lastupdatedtime] => 26/03/2020 07:19:29
+                    [recovered] => 0
+                    [state] => Daman and Diu
+                    [statecode] => DD
+                    [statenotes] => 
+                )
+
+            [36] => Array
+                (
+                    [active] => 0
+                    [confirmed] => 0
+                    [deaths] => 0
+                    [deltaconfirmed] => 0
+                    [deltadeaths] => 0
+                    [deltarecovered] => 0
+                    [lastupdatedtime] => 26/03/2020 07:19:29
+                    [recovered] => 0
+                    [state] => Lakshadweep
+                    [statecode] => LD
+                    [statenotes] => 
+                )
+
+            [37] => Array
+                (
+                    [active] => 0
+                    [confirmed] => 0
+                    [deaths] => 0
+                    [deltaconfirmed] => 0
+                    [deltadeaths] => 0
+                    [deltarecovered] => 0
+                    [lastupdatedtime] => 26/03/2020 07:19:29
+                    [recovered] => 0
+                    [state] => Sikkim
+                    [statecode] => SK
+                    [statenotes] => 
+                )
+
+        )
+
+    [tested] => Array
+        (
+            [0] => Array
+                (
+                    [positivecasesfromsamplesreported] => 
+                    [samplereportedtoday] => 
+                    [source] => Press_Release_ICMR_13March2020.pdf
+                    [testsconductedbyprivatelabs] => 
+                    [totalindividualstested] => 5900
+                    [totalpositivecases] => 78
+                    [totalsamplestested] => 6500
+                    [updatetimestamp] => 13/03/2020 00:00:00
+                )
+
+            [1] => Array
+                (
+                    [positivecasesfromsamplesreported] => 
+                    [samplereportedtoday] => 
+                    [source] => ICMR_website_update_18March_6PM_IST.pdf
+                    [testsconductedbyprivatelabs] => 
+                    [totalindividualstested] => 12235
+                    [totalpositivecases] => 150
+                    [totalsamplestested] => 13125
+                    [updatetimestamp] => 18/03/2020 18:00:00
+                )
+
+            [2] => Array
+                (
+                    [positivecasesfromsamplesreported] => 
+                    [samplereportedtoday] => 
+                    [source] => ICMR_website_update_19March_10AM_IST_V2.pdf
+                    [testsconductedbyprivatelabs] => 
+                    [totalindividualstested] => 12426
+                    [totalpositivecases] => 168
+                    [totalsamplestested] => 13316
+                    [updatetimestamp] => 19/03/2020 10:00:00
+                )
+
+            [3] => Array
+                (
+                    [positivecasesfromsamplesreported] => 
+                    [samplereportedtoday] => 
+                    [source] => ICMR_website_update_19March_6PM_IST.pdf
+                    [testsconductedbyprivatelabs] => 
+                    [totalindividualstested] => 13285
+                    [totalpositivecases] => 182
+                    [totalsamplestested] => 14175
+                    [updatetimestamp] => 19/03/2020 18:00:00
+                )
+
+            [4] => Array
+                (
+                    [positivecasesfromsamplesreported] => 
+                    [samplereportedtoday] => 
+                    [source] => ICMR_website_update_20March_10AM_IST.pdf
+                    [testsconductedbyprivatelabs] => 
+                    [totalindividualstested] => 13486
+                    [totalpositivecases] => 206
+                    [totalsamplestested] => 14376
+                    [updatetimestamp] => 20/03/2020 10:00:00
+                )
+
+            [5] => Array
+                (
+                    [positivecasesfromsamplesreported] => 
+                    [samplereportedtoday] => 
+                    [source] => ICMR_website_update_20March_6PM_IST.pdf
+                    [testsconductedbyprivatelabs] => 
+                    [totalindividualstested] => 14514
+                    [totalpositivecases] => 236
+                    [totalsamplestested] => 15404
+                    [updatetimestamp] => 20/03/2020 18:00:00
+                )
+
+            [6] => Array
+                (
+                    [positivecasesfromsamplesreported] => 
+                    [samplereportedtoday] => 
+                    [source] => ICMR_website_update_21March_10AM_IST.pdf
+                    [testsconductedbyprivatelabs] => 
+                    [totalindividualstested] => 14811
+                    [totalpositivecases] => 271
+                    [totalsamplestested] => 15701
+                    [updatetimestamp] => 21/03/2020 10:00:00
+                )
+
+            [7] => Array
+                (
+                    [positivecasesfromsamplesreported] => 
+                    [samplereportedtoday] => 
+                    [source] => ICMR_website_update_21March_6PM_IST.pdf
+                    [testsconductedbyprivatelabs] => 
+                    [totalindividualstested] => 16021
+                    [totalpositivecases] => 315
+                    [totalsamplestested] => 16911
+                    [updatetimestamp] => 21/03/2020 18:00:00
+                )
+
+            [8] => Array
+                (
+                    [positivecasesfromsamplesreported] => 
+                    [samplereportedtoday] => 
+                    [source] => ICMR_website_update_22March_10AM_IST.pdf
+                    [testsconductedbyprivatelabs] => 
+                    [totalindividualstested] => 16109
+                    [totalpositivecases] => 341
+                    [totalsamplestested] => 16999
+                    [updatetimestamp] => 22/03/2020 10:00:00
+                )
+
+            [9] => Array
+                (
+                    [positivecasesfromsamplesreported] => 
+                    [samplereportedtoday] => 
+                    [source] => ICMR_website_update_22March_6PM_IST.pdf
+                    [testsconductedbyprivatelabs] => 
+                    [totalindividualstested] => 17237
+                    [totalpositivecases] => 396
+                    [totalsamplestested] => 18127
+                    [updatetimestamp] => 22/03/2020 18:00:00
+                )
+
+            [10] => Array
+                (
+                    [positivecasesfromsamplesreported] => 
+                    [samplereportedtoday] => 
+                    [source] => ICMR_website_update_23March_10AM_IST.pdf
+                    [testsconductedbyprivatelabs] => 
+                    [totalindividualstested] => 17493
+                    [totalpositivecases] => 415
+                    [totalsamplestested] => 18383
+                    [updatetimestamp] => 23/03/2020 10:00:00
+                )
+
+            [11] => Array
+                (
+                    [positivecasesfromsamplesreported] => 
+                    [samplereportedtoday] => 
+                    [source] => ICMR_website_update_23March_8PM_IST.pdf
+                    [testsconductedbyprivatelabs] => 
+                    [totalindividualstested] => 19817
+                    [totalpositivecases] => 471
+                    [totalsamplestested] => 20707
+                    [updatetimestamp] => 23/03/2020 20:00:00
+                )
+
+            [12] => Array
+                (
+                    [positivecasesfromsamplesreported] => 
+                    [samplereportedtoday] => 
+                    [source] => ICMR_website_update_24March_10AM_IST.pdf
+                    [testsconductedbyprivatelabs] => 
+                    [totalindividualstested] => 19974
+                    [totalpositivecases] => 482
+                    [totalsamplestested] => 20864
+                    [updatetimestamp] => 24/03/2020 10:00:00
+                )
+
+            [13] => Array
+                (
+                    [positivecasesfromsamplesreported] => 
+                    [samplereportedtoday] => 
+                    [source] => ICMR_website_update_24March_8PM_IST.pdf
+                    [testsconductedbyprivatelabs] => 
+                    [totalindividualstested] => 21804
+                    [totalpositivecases] => 536
+                    [totalsamplestested] => 22694
+                    [updatetimestamp] => 24/03/2020 20:00:00
+                )
+
+            [14] => Array
+                (
+                    [positivecasesfromsamplesreported] => 
+                    [samplereportedtoday] => 
+                    [source] => ICMR_website_update_25March_10AM_IST.pdf
+                    [testsconductedbyprivatelabs] => 
+                    [totalindividualstested] => 22038
+                    [totalpositivecases] => 539
+                    [totalsamplestested] => 22928
+                    [updatetimestamp] => 25/03/2020 10:00:00
+                )
+
+            [15] => Array
+                (
+                    [positivecasesfromsamplesreported] => 
+                    [samplereportedtoday] => 
+                    [source] => ICMR_website_update_25March_8PM_IST.pdf
+                    [testsconductedbyprivatelabs] => 
+                    [totalindividualstested] => 24254
+                    [totalpositivecases] => 581
+                    [totalsamplestested] => 25144
+                    [updatetimestamp] => 25/03/2020 20:00:00
+                )
+
+            [16] => Array
+                (
+                    [positivecasesfromsamplesreported] => 
+                    [samplereportedtoday] => 
+                    [source] => 
+                    [testsconductedbyprivatelabs] => 
+                    [totalindividualstested] => 
+                    [totalpositivecases] => 
+                    [totalsamplestested] => 
+                    [updatetimestamp] => 26/03/2020 10:00:00
+                )
+
+            [17] => Array
+                (
+                    [positivecasesfromsamplesreported] => 
+                    [samplereportedtoday] => 
+                    [source] => 
+                    [testsconductedbyprivatelabs] => 
+                    [totalindividualstested] => 
+                    [totalpositivecases] => 
+                    [totalsamplestested] => 
+                    [updatetimestamp] => 26/03/2020 18:00:00
+                )
+
+            [18] => Array
+                (
+                    [positivecasesfromsamplesreported] => 
+                    [samplereportedtoday] => 
+                    [source] => ICMR_website_update_27March_9AM_IST.pdf
+                    [testsconductedbyprivatelabs] => 
+                    [totalindividualstested] => 26798
+                    [totalpositivecases] => 691
+                    [totalsamplestested] => 27688
+                    [updatetimestamp] => 27/03/2020 09:00:00
+                )
+
+            [19] => Array
+                (
+                    [positivecasesfromsamplesreported] => 
+                    [samplereportedtoday] => 
+                    [source] => MoH Press conference with Dr. Raman G
+                    [testsconductedbyprivatelabs] => 1334
+                    [totalindividualstested] => 
+                    [totalpositivecases] => 
+                    [totalsamplestested] => 38442
+                    [updatetimestamp] => 30/03/2020 00:00:00
+                )
+
+            [20] => Array
+                (
+                    [positivecasesfromsamplesreported] => 
+                    [samplereportedtoday] => 
+                    [source] => MoH Press conference with Dr. Raman G
+                    [testsconductedbyprivatelabs] => 1733
+                    [totalindividualstested] => 
+                    [totalpositivecases] => 
+                    [totalsamplestested] => 42788
+                    [updatetimestamp] => 31/03/2020 00:00:00
+                )
+
+            [21] => Array
+                (
+                    [positivecasesfromsamplesreported] => 
+                    [samplereportedtoday] => 
+                    [source] => https://twitter.com/PTI_News/status/1245308976440340482
+                    [testsconductedbyprivatelabs] => 4562
+                    [totalindividualstested] => 
+                    [totalpositivecases] => 1637
+                    [totalsamplestested] => 47951
+                    [updatetimestamp] => 01/04/2020 00:00:00
+                )
+
+            [22] => Array
+                (
+                    [positivecasesfromsamplesreported] => 
+                    [samplereportedtoday] => 
+                    [source] => ICMR_testing_update_02April_9PM_IST.pdf
+                    [testsconductedbyprivatelabs] => 
+                    [totalindividualstested] => 
+                    [totalpositivecases] => 2056
+                    [totalsamplestested] => 55851
+                    [updatetimestamp] => 02/04/2020 21:00:00
+                )
+
+            [23] => Array
+                (
+                    [positivecasesfromsamplesreported] => 
+                    [samplereportedtoday] => 
+                    [source] => ICMR_testing_update_03April_9AM_IST.pdf
+                    [testsconductedbyprivatelabs] => 
+                    [totalindividualstested] => 
+                    [totalpositivecases] => 2183
+                    [totalsamplestested] => 56680
+                    [updatetimestamp] => 03/04/2020 09:00:00
+                )
+
+            [24] => Array
+                (
+                    [positivecasesfromsamplesreported] => 575
+                    [samplereportedtoday] => 10034
+                    [source] => ICMR_testing_update_03April_9PM_IST.pdf
+                    [testsconductedbyprivatelabs] => 
+                    [totalindividualstested] => 
+                    [totalpositivecases] => 2653
+                    [totalsamplestested] => 69245
+                    [updatetimestamp] => 03/04/2020 21:00:00
+                )
+
+            [25] => Array
+                (
+                    [positivecasesfromsamplesreported] => 
+                    [samplereportedtoday] => 
+                    [source] => https://icmr.nic.in/sites/default/files/whats_new/ICMR_testing_update_04April_9PM_IST.pdf
+                    [testsconductedbyprivatelabs] => 
+                    [totalindividualstested] => 
+                    [totalpositivecases] => 3113
+                    [totalsamplestested] => 79950
+                    [updatetimestamp] => 04/04/2020 21:00:00
+                )
+
+            [26] => Array
+                (
+                    [positivecasesfromsamplesreported] => 295
+                    [samplereportedtoday] => 9369
+                    [source] => https://icmr.nic.in/sites/default/files/whats_new/ICMR_testing_update_05April_9PM_IST.pdf
+                    [testsconductedbyprivatelabs] => 
+                    [totalindividualstested] => 
+                    [totalpositivecases] => 3554
+                    [totalsamplestested] => 89534
+                    [updatetimestamp] => 05/04/2020 21:00:00
+                )
+
+            [27] => Array
+                (
+                    [positivecasesfromsamplesreported] => 311
+                    [samplereportedtoday] => 11432
+                    [source] => https://icmr.nic.in/sites/default/files/whats_new/ICMR_testing_update_06April_9PM_IST.pdf
+                    [testsconductedbyprivatelabs] => 
+                    [totalindividualstested] => 
+                    [totalpositivecases] => 4135
+                    [totalsamplestested] => 101068
+                    [updatetimestamp] => 06/04/2020 21:00:00
+                )
+
+            [28] => Array
+                (
+                    [positivecasesfromsamplesreported] => 285
+                    [samplereportedtoday] => 12584
+                    [source] => ICMR_testing_update_07April_9PM_IST.pdf
+                    [testsconductedbyprivatelabs] => 
+                    [totalindividualstested] => 
+                    [totalpositivecases] => 4616
+                    [totalsamplestested] => 114015
+                    [updatetimestamp] => 07/04/2020 21:00:00
+                )
+
+            [29] => Array
+                (
+                    [positivecasesfromsamplesreported] => 320
+                    [samplereportedtoday] => 13143
+                    [source] => https://icmr.nic.in/sites/default/files/whats_new/ICMR_testing_update_08April_9PM_IST.pdf
+                    [testsconductedbyprivatelabs] => 
+                    [totalindividualstested] => 
+                    [totalpositivecases] => 5114
+                    [totalsamplestested] => 127919
+                    [updatetimestamp] => 08/04/2020 21:00:00
+                )
+
+            [30] => Array
+                (
+                    [positivecasesfromsamplesreported] => 320
+                    [samplereportedtoday] => 16002
+                    [source] => https://icmr.nic.in/sites/default/files/whats_new/ICMR_testing_update_09April_9PM_IST.pdf
+                    [testsconductedbyprivatelabs] => 
+                    [totalindividualstested] => 130792
+                    [totalpositivecases] => 5705
+                    [totalsamplestested] => 144910
+                    [updatetimestamp] => 09/04/2020 21:00:00
+                )
+
+            [31] => Array
+                (
+                    [positivecasesfromsamplesreported] => 433
+                    [samplereportedtoday] => 15663
+                    [source] => https://icmr.nic.in/sites/default/files/whats_new/ICMR_testing_update_10April_9PM_IST.pdf
+                    [testsconductedbyprivatelabs] => 
+                    [totalindividualstested] => 147034
+                    [totalpositivecases] => 6872
+                    [totalsamplestested] => 161330
+                    [updatetimestamp] => 10/04/2020 21:00:00
+                )
+
+            [32] => Array
+                (
+                    [positivecasesfromsamplesreported] => 600
+                    [samplereportedtoday] => 17143
+                    [source] => https://icmr.nic.in/sites/default/files/whats_new/ICMR_testing_update_11April_9PM_IST.pdf
+                    [testsconductedbyprivatelabs] => 
+                    [totalindividualstested] => 164773
+                    [totalpositivecases] => 7703
+                    [totalsamplestested] => 179374
+                    [updatetimestamp] => 11/04/2020 21:00:00
+                )
+
+            [33] => Array
+                (
+                    [positivecasesfromsamplesreported] => 544
+                    [samplereportedtoday] => 15,583
+                    [source] => https://icmr.nic.in/sites/default/files/whats_new/ICMR_testing_update_12April_9PM_IST.pdf
+                    [testsconductedbyprivatelabs] => 
+                    [totalindividualstested] => 181028
+                    [totalpositivecases] => 8312
+                    [totalsamplestested] => 195748
+                    [updatetimestamp] => 12/04/2020 21:00:00
+                )
+
+            [34] => Array
+                (
+                    [positivecasesfromsamplesreported] => 
+                    [samplereportedtoday] => 
+                    [source] => https://icmr.nic.in/sites/default/files/whats_new/ICMR_testing_update_13April_9PM_IST_0.pdf
+                    [testsconductedbyprivatelabs] => 
+                    [totalindividualstested] => 202551
+                    [totalpositivecases] => 9341
+                    [totalsamplestested] => 217554
+                    [updatetimestamp] => 13/04/2020 21:00:00
+                )
+
+            [35] => Array
+                (
+                    [positivecasesfromsamplesreported] => 853
+                    [samplereportedtoday] => 26351
+                    [source] => https://icmr.nic.in/sites/default/files/whats_new/ICMR_testing_update_14April_9PM_IST.pdf
+                    [testsconductedbyprivatelabs] => 
+                    [totalindividualstested] => 229426
+                    [totalpositivecases] => 10307
+                    [totalsamplestested] => 244893
+                    [updatetimestamp] => 14/04/2020 21:00:00
+                )
+
+            [36] => Array
+                (
+                    [positivecasesfromsamplesreported] => 953
+                    [samplereportedtoday] => 28941
+                    [source] => https://icmr.nic.in/sites/default/files/whats_new/ICMR_testing_update_15April_9PM_IST.pdf
+                    [testsconductedbyprivatelabs] => 
+                    [totalindividualstested] => 258730
+                    [totalpositivecases] => 11297
+                    [totalsamplestested] => 274599
+                    [updatetimestamp] => 15/04/2020 21:00:00
+                )
+
+            [37] => Array
+                (
+                    [positivecasesfromsamplesreported] => 1206
+                    [samplereportedtoday] => 27256
+                    [source] => https://icmr.nic.in/sites/default/files/whats_new/ICMR_testing_update_16April_9PM_IST.pdf
+                    [testsconductedbyprivatelabs] => 
+                    [totalindividualstested] => 286714
+                    [totalpositivecases] => 12,581
+                    [totalsamplestested] => 302956
+                    [updatetimestamp] => 16/04/2020 21:00:00
+                )
+
+            [38] => Array
+                (
+                    [positivecasesfromsamplesreported] => 1443
+                    [samplereportedtoday] => 31083
+                    [source] => https://icmr.nic.in/sites/default/files/whats_new/ICMR_testing_update_17April_9PM_IST.pdf
+                    [testsconductedbyprivatelabs] => 
+                    [totalindividualstested] => 318449
+                    [totalpositivecases] => 14098
+                    [totalsamplestested] => 335123
+                    [updatetimestamp] => 17/04/2020 21:00:00
+                )
+
+            [39] => Array
+                (
+                    [positivecasesfromsamplesreported] => 2154
+                    [samplereportedtoday] => 35494
+                    [source] => https://icmr.nic.in/sites/default/files/whats_new/ICMR_testing_update_18April_9PM_IST.pdf
+                    [testsconductedbyprivatelabs] => 
+                    [totalindividualstested] => 354969
+                    [totalpositivecases] => 16365
+                    [totalsamplestested] => 372123
+                    [updatetimestamp] => 18/04/2020 21:00:00
+                )
+
+            [40] => Array
+                (
+                    [positivecasesfromsamplesreported] => 1135
+                    [samplereportedtoday] => 27824
+                    [source] => https://icmr.nic.in/sites/default/files/whats_new/ICMR_testing_update_19April_9PM_IST.pdf
+                    [testsconductedbyprivatelabs] => 
+                    [totalindividualstested] => 383985
+                    [totalpositivecases] => 17615
+                    [totalsamplestested] => 401586
+                    [updatetimestamp] => 19/04/2020 21:00:00
+                )
+
+            [41] => Array
+                (
+                    [positivecasesfromsamplesreported] => 
+                    [samplereportedtoday] => 
+                    [source] => 
+                    [testsconductedbyprivatelabs] => 
+                    [totalindividualstested] => 
+                    [totalpositivecases] => 
+                    [totalsamplestested] => 
+                    [updatetimestamp] => 20/04/2020 21:00:00
+                )
+
+            [42] => Array
+                (
+                    [positivecasesfromsamplesreported] => 
+                    [samplereportedtoday] => 26943
+                    [source] => https://icmr.nic.in/sites/default/files/whats_new/ICMR_testing_update_21April_9PM_IST.pdf
+                    [testsconductedbyprivatelabs] => 
+                    [totalindividualstested] => 447812
+                    [totalpositivecases] => 
+                    [totalsamplestested] => 462621
+                    [updatetimestamp] => 21/04/2020 21:00:00
+                )
+
+        )
+
+)
+
+
+
+
+
+
+http://covid19tracking.epizy.com/
+
+Hello, I have made this Mobile responsive website which gives proper updates of corona around the world and even state/District-wise in every 15 minutes. Please have a look and be aware about the issue. Also, help me to update myself by providing your precious Comment.

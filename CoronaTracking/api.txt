@@ -1,0 +1,576 @@
+Array
+(
+    [0] => Array
+        (
+            [States] => Dhaka (District)
+            [No_of_cases] => 48
+            [No_on_admission] => 182
+            [No_discharged] => 90
+            [No_of_deaths] => 11
+        )
+
+    [1] => Array
+        (
+            [id] => 1
+            [States] => Gazipur
+            [No_of_cases] => 269
+            [No_on_admission] => 44
+            [No_discharged] => 23
+            [No_of_deaths] => 2
+        )
+
+    [2] => Array
+        (
+            [id] => 2
+            [States] => Kishoreganj
+            [No_of_cases] => 146
+            [No_on_admission] => 26
+            [No_discharged] => 0
+            [No_of_deaths] => 1
+        )
+
+    [3] => Array
+        (
+            [id] => 3
+            [States] => Madaripur
+            [No_of_cases] => 27
+            [No_on_admission] => 3
+            [No_discharged] => 17
+            [No_of_deaths] => 0
+        )
+
+    [4] => Array
+        (
+            [id] => 4
+            [States] => Manikganj
+            [No_of_cases] => 9
+            [No_on_admission] => 8
+            [No_discharged] => 6
+            [No_of_deaths] => 1
+        )
+
+    [5] => Array
+        (
+            [id] => 5
+            [States] => Narayanganj
+            [No_of_cases] => 508
+            [No_on_admission] => 10
+            [No_discharged] => 5
+            [No_of_deaths] => 0
+        )
+
+    [6] => Array
+        (
+            [id] => 6
+            [States] => Munshigonj
+            [No_of_cases] => 61
+            [No_on_admission] => 5
+            [No_discharged] => 5
+            [No_of_deaths] => 0
+        )
+
+    [7] => Array
+        (
+            [id] => 7
+            [States] => Narshingdi
+            [No_of_cases] => 136
+            [No_on_admission] => 9
+            [No_discharged] => 0
+            [No_of_deaths] => 0
+        )
+
+    [8] => Array
+        (
+            [id] => 8
+            [States] => Rajbari
+            [No_of_cases] => 10
+            [No_on_admission] => 8
+            [No_discharged] => 0
+            [No_of_deaths] => 1
+        )
+
+    [9] => Array
+        (
+            [id] => 9
+            [States] => Faridpur
+            [No_of_cases] => 6
+            [No_on_admission] => 6
+            [No_discharged] => 0
+            [No_of_deaths] => 0
+        )
+
+    [10] => Array
+        (
+            [id] => 10
+            [States] => Tangail
+            [No_of_cases] => 15
+            [No_on_admission] => 2
+            [No_discharged] => 4
+            [No_of_deaths] => 0
+        )
+
+    [11] => Array
+        (
+            [id] => 11
+            [States] => Shariatpur
+            [No_of_cases] => 11
+            [No_on_admission] => 3
+            [No_discharged] => 3
+            [No_of_deaths] => 0
+        )
+
+    [12] => Array
+        (
+            [id] => 12
+            [States] => Gopalganj
+            [No_of_cases] => 35
+            [No_on_admission] => 3
+            [No_discharged] => 0
+            [No_of_deaths] => 1
+        )
+
+    [13] => Array
+        (
+            [id] => 13
+            [States] => Chattogram
+            [No_of_cases] => 42
+            [No_on_admission] => 3
+            [No_discharged] => 0
+            [No_of_deaths] => 0
+        )
+
+    [14] => Array
+        (
+            [id] => 14
+            [States] => Cox’s bazar
+            [No_of_cases] => 5
+            [No_on_admission] => 1
+            [No_discharged] => 2
+            [No_of_deaths] => 0
+        )
+
+    [15] => Array
+        (
+            [id] => 15
+            [States] => Cumilla
+            [No_of_cases] => 26
+            [No_on_admission] => 0
+            [No_discharged] => 2
+            [No_of_deaths] => 0
+        )
+
+    [16] => Array
+        (
+            [id] => 16
+            [States] => B. Baria
+            [No_of_cases] => 24
+            [No_on_admission] => 0
+            [No_discharged] => 2
+            [No_of_deaths] => 0
+        )
+
+    [17] => Array
+        (
+            [id] => 17
+            [States] => Laksmipur
+            [No_of_cases] => 25
+            [No_on_admission] => 2
+            [No_discharged] => 0
+            [No_of_deaths] => 0
+        )
+
+    [18] => Array
+        (
+            [id] => 18
+            [States] => Bandarban
+            [No_of_cases] => 4
+            [No_on_admission] => 1
+            [No_discharged] => 0
+            [No_of_deaths] => 0
+        )
+
+    [19] => Array
+        (
+            [id] => 19
+            [States] => Noakhali
+            [No_of_cases] => 4
+            [No_on_admission] => 1
+            [No_discharged] => 0
+            [No_of_deaths] => 0
+        )
+	
+    
+
+    [20] => Array
+        (
+            [id] => 2
+            [States] => Feni
+            [No_of_cases] => 3
+            [No_on_admission] => 26
+            [No_discharged] => 0
+            [No_of_deaths] => 1
+        )
+
+    [21] => Array
+        (
+            [id] => 3
+            [States] => Chandpur
+            [No_of_cases] => 10
+            [No_on_admission] => 3
+            [No_discharged] => 17
+            [No_of_deaths] => 0
+        )
+
+    [22] => Array
+        (
+            [id] => 4
+            [States] => Moulovi Bazar
+            [No_of_cases] => 2
+            [No_on_admission] => 8
+            [No_discharged] => 6
+            [No_of_deaths] => 1
+        )
+
+    [23] => Array
+        (
+            [id] => 5
+            [States] => Sunamganj
+            [No_of_cases] => 1
+            [No_on_admission] => 10
+            [No_discharged] => 5
+            [No_of_deaths] => 0
+        )
+
+    [24] => Array
+        (
+            [id] => 6
+            [States] => Hobiganj
+            [No_of_cases] => 13
+            [No_on_admission] => 5
+            [No_discharged] => 5
+            [No_of_deaths] => 0
+        )
+
+    [25] => Array
+        (
+            [id] => 7
+            [States] => Sylhet
+            [No_of_cases] => 4
+            [No_on_admission] => 9
+            [No_discharged] => 0
+            [No_of_deaths] => 0
+        )
+
+    [26] => Array
+        (
+            [id] => 8
+            [States] => Rangpur
+            [No_of_cases] => 9
+            [No_on_admission] => 8
+            [No_discharged] => 0
+            [No_of_deaths] => 1
+        )
+
+    [27] => Array
+        (
+            [id] => 9
+            [States] => Gaibandha
+            [No_of_cases] => 13
+            [No_on_admission] => 6
+            [No_discharged] => 0
+            [No_of_deaths] => 0
+        )
+
+    [28] => Array
+        (
+            [id] => 10
+            [States] => Nilphamari
+            [No_of_cases] => 10
+            [No_on_admission] => 2
+            [No_discharged] => 4
+            [No_of_deaths] => 0
+        )
+
+    [29] => Array
+        (
+            [id] => 11
+            [States] => Lalmonirhat
+            [No_of_cases] => 2
+            [No_on_admission] => 3
+            [No_discharged] => 3
+            [No_of_deaths] => 0
+        )
+
+    [30] => Array
+        (
+            [id] => 12
+            [States] => Kurigram
+            [No_of_cases] => 3
+            [No_on_admission] => 3
+            [No_discharged] => 0
+            [No_of_deaths] => 1
+        )
+
+    [31] => Array
+        (
+            [id] => 13
+            [States] => Dinajpur
+            [No_of_cases] => 13
+            [No_on_admission] => 3
+            [No_discharged] => 0
+            [No_of_deaths] => 0
+        )
+
+    [32] => Array
+        (
+            [id] => 14
+            [States] => Panchagar
+            [No_of_cases] => 2
+            [No_on_admission] => 1
+            [No_discharged] => 2
+            [No_of_deaths] => 0
+        )
+
+    [33] => Array
+        (
+            [id] => 15
+            [States] => Thakurgaon
+            [No_of_cases] => 8
+            [No_on_admission] => 0
+            [No_discharged] => 2
+            [No_of_deaths] => 0
+        )
+
+    [34] => Array
+        (
+            [id] => 16
+            [States] => Khulna
+            [No_of_cases] => 4
+            [No_on_admission] => 0
+            [No_discharged] => 2
+            [No_of_deaths] => 0
+        )
+
+    [35] => Array
+        (
+            [id] => 17
+            [States] => Jessore
+            [No_of_cases] => 5
+            [No_on_admission] => 2
+            [No_discharged] => 0
+            [No_of_deaths] => 0
+        )
+
+    [36] => Array
+        (
+            [id] => 18
+            [States] => Bagerhat
+            [No_of_cases] => 1
+            [No_on_admission] => 1
+            [No_discharged] => 0
+            [No_of_deaths] => 0
+        )
+
+    [37] => Array
+        (
+            [id] => 19
+            [States] => Narail
+            [No_of_cases] => 7
+            [No_on_admission] => 1
+            [No_discharged] => 0
+            [No_of_deaths] => 0
+        )
+
+     [38] => Array
+        (
+            [id] => 19
+            [States] => Magura
+            [No_of_cases] => 1
+            [No_on_admission] => 1
+            [No_discharged] => 0
+            [No_of_deaths] => 0
+        )
+	
+    
+
+    [39] => Array
+        (
+            [id] => 2
+            [States] => Meherpur
+            [No_of_cases] => 2
+            [No_on_admission] => 26
+            [No_discharged] => 0
+            [No_of_deaths] => 1
+        )
+
+    [40] => Array
+        (
+            [id] => 3
+            [States] => Kushtia
+            [No_of_cases] => 2
+            [No_on_admission] => 3
+            [No_discharged] => 17
+            [No_of_deaths] => 0
+        )
+
+    [41] => Array
+        (
+            [id] => 4
+            [States] => Chuadanga
+            [No_of_cases] => 2
+            [No_on_admission] => 8
+            [No_discharged] => 6
+            [No_of_deaths] => 1
+        )
+
+    [42] => Array
+        (
+            [id] => 5
+            [States] => Mymensingh
+            [No_of_cases] => 63
+            [No_on_admission] => 10
+            [No_discharged] => 5
+            [No_of_deaths] => 0
+        )
+
+    [43] => Array
+        (
+            [id] => 6
+            [States] => Jamalpur
+            [No_of_cases] => 29
+            [No_on_admission] => 5
+            [No_discharged] => 5
+            [No_of_deaths] => 0
+        )
+
+    [44] => Array
+        (
+            [id] => 7
+            [States] => Netrokona
+            [No_of_cases] => 22
+            [No_on_admission] => 9
+            [No_discharged] => 0
+            [No_of_deaths] => 0
+        )
+
+    [45] => Array
+        (
+            [id] => 8
+            [States] => Sherpur
+            [No_of_cases] => 19
+            [No_on_admission] => 8
+            [No_discharged] => 0
+            [No_of_deaths] => 1
+        )
+
+    [46] => Array
+        (
+            [id] => 9
+            [States] => Barguna
+            [No_of_cases] => 17
+            [No_on_admission] => 6
+            [No_discharged] => 0
+            [No_of_deaths] => 0
+        )
+
+    [47] => Array
+        (
+            [id] => 10
+            [States] => Barishal
+            [No_of_cases] => 34
+            [No_on_admission] => 2
+            [No_discharged] => 4
+            [No_of_deaths] => 0
+        )
+
+    [48] => Array
+        (
+            [id] => 11
+            [States] => Potuakhali
+            [No_of_cases] => 10
+            [No_on_admission] => 3
+            [No_discharged] => 3
+            [No_of_deaths] => 0
+        )
+
+    [49] => Array
+        (
+            [id] => 12
+            [States] => Pirojpur
+            [No_of_cases] => 5
+            [No_on_admission] => 3
+            [No_discharged] => 0
+            [No_of_deaths] => 1
+        )
+
+    [50] => Array
+        (
+            [id] => 13
+            [States] => Jhalokathi
+            [No_of_cases] => 5
+            [No_on_admission] => 3
+            [No_discharged] => 0
+            [No_of_deaths] => 0
+        )
+
+    [51] => Array
+        (
+            [id] => 14
+            [States] => Joypurhat
+            [No_of_cases] => 4
+            [No_on_admission] => 1
+            [No_discharged] => 2
+            [No_of_deaths] => 0
+        )
+
+    [52] => Array
+        (
+            [id] => 15
+            [States] => Pabna
+            [No_of_cases] => 3
+            [No_on_admission] => 0
+            [No_discharged] => 2
+            [No_of_deaths] => 0
+        )
+
+    [53] => Array
+        (
+            [id] => 16
+            [States] => Chapainawabganj
+            [No_of_cases] => 1
+            [No_on_admission] => 0
+            [No_discharged] => 2
+            [No_of_deaths] => 0
+        )
+
+    [54] => Array
+        (
+            [id] => 17
+            [States] => Bogra
+            [No_of_cases] => 1
+            [No_on_admission] => 2
+            [No_discharged] => 0
+            [No_of_deaths] => 0
+        )
+
+    [55] => Array
+        (
+            [id] => 18
+            [States] => Naogaon
+            [No_of_cases] => 2
+            [No_on_admission] => 1
+            [No_discharged] => 0
+            [No_of_deaths] => 0
+        )
+
+    [56] => Array
+        (
+            [id] => 19
+            [States] => Rajshahi
+            [No_of_cases] => 19
+            [No_on_admission] => 1
+            [No_discharged] => 0
+            [No_of_deaths] => 0
+        )
+
+)
