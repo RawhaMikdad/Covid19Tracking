@@ -19,12 +19,16 @@
     html{
       scroll-behavior: smooth;
     }
-      *{ margin: 0; padding: 0; box-sizing: border-box; f
+      *{ margin: 0; padding: 0; box-sizing: border-box;
 
     .row{ margin-left: 0!important; margin-right: 0!important; }
     font-family: 'Muli', sans-serif;
 
     font-family: 'Baloo Paaji 2', cursive;}
+
+      body{
+      background-color:  #f6f5f3   ;
+    }
 
     /*////main Header \\\\*/
     .main_header{
@@ -48,6 +52,9 @@
     }
 
     .leftside img{animation: heartbeat 5s linear infinite; }
+    .leftside img{
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+    }
 
     @keyframes heartbeat {
       0%
@@ -75,6 +82,9 @@
         transform: scale(.75);
       }
     }
+
+
+
     /********* corona update********/
 
     .corona_update{
@@ -87,13 +97,13 @@
 
     /************ ABOUT *********/
     .sub_section{
-      background-color: #fbfafd
+      background-color: #e4decd ;
     }
 
     /*********FOOTER *********/
 
     .footer_style{
-      background-color: #a29bfe!important;
+      background-color: #3f3f3f!important;
     }
     .footer_style{
       margin-bottom: 0!important;
@@ -109,7 +119,7 @@
       z-index: 99;
       border: none;
       outline: none;
-      background-color: #00A8FF
+      background-color: #00A8FF;
       color: white;
       cursor: pointer;
       padding: 10px;
@@ -117,7 +127,7 @@
     }
 
     #mybtn:hover{
-      background: #606060;
+      background: red;
     }
 
     /**************Responsive css *************/
@@ -136,24 +146,27 @@
         }
         .count_style p{ text-align: center; }
 
-    }
+        .table-responsive-hover{
+          overflow-x: auto;
+        }
         .about_response{margin-left:0!important; }
         .para_response{ margin-left: 0!important; }
         .response_para1{ margin-left: 0!important; }
+
+
     }
 
 
     *{
       box-sizing:border-box;
     }
-    body{
 
-    }
     form{
       width:100%;
-      margin-left:30px;
+      align-items: center;
       margin-top:200px;
     }
+
 
     input[type=search]{
       padding:15px;
@@ -162,10 +175,9 @@
       font-family:sans-serif;
       background:white;
       color:white;
-      border-radius:0 5px 5px 0;
-      cursor:pointer;
-      position:absolute;
+
     }
+
 
     @media screen and (max-width:600px){
         form{
@@ -176,8 +188,6 @@
         }
         .leftside {
           padding-left: 10px;
-
-
         }
 
           input[type=search]{
@@ -188,9 +198,76 @@
             padding:10px;
           }
 
+          #headtable th{
+            background-color: #4bb7d8;
+            top: 0;
+            position: sticky;
+          }
+          #scrolltable{
+            height: 600px;
+            overflow: scroll;
+          }
+
 
     }
 
+    .bdreport{
+      animation: blinkingText .5s infinite;
+      align-items: center;
+
+      text-align: center;
+      display: block;
+      margin-bottom: 0;
+
+    }
+    .bdreport a:hover{
+      display-decoration:none;
+    }
+    @keyframes blinkingText {
+      0%{     color: yellow;}
+      10%{     color: yellow;}
+      20%{    color: white; }
+      30%{    color: white; }
+      40%{    color: yellow; }
+      50%{    color: yellow; }
+      60%{    color: white; }
+      70%{    color: white; }
+      80%{    color:yellow;  }
+      90%{    color:yellow;  }
+      100%{   color:transparent ; }
+
+    }
+
+
+    nav{
+      position: fixed;
+      background-color: #3f3f3f ;
+    }
+    nav a{
+      color: #f6f5f3;
+    }
+    #headtable th{
+      background-color: #4bb7d8;
+      top: 0;
+      position: sticky;
+    }
+    #scrolltable{
+      height: 600px;
+      overflow: scroll;
+    }
+    .VisitorCount{
+      margin-left: 10px;
+      align-items: center;
+      display: block;
+    }
+    .mainTable{
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+    .table-responsive-md{
+      margin: 5%;
+
+    }
 
     </style>
 
@@ -207,9 +284,11 @@
 
   <nav class="navbar navbar-expand-lg nav_style pl-5 p-3">
     <a class="navbar-brand" href="#">COVID-19</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" value="drop" style="color:#3672fd">District-wise
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" value="drop" style="color:#f6f5f3">Menu-
     <span class="navbar-toggler-icon"></span>
     </button>
+
+
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto pr-5 text-capitalize">
@@ -255,7 +334,7 @@
     <div class="col-lg-7 col-md-7 col-12 order-lg-1 order-1">
       <div class="rightside w-100 h-100 d-flex justify-content-center align-items-center">
         <h1>Let's Stay Home and Fight Together against Cor<span class="corona_virus"><img
-        src="images/corona2.png" height="60px" width="70"></span>na Virus</h1>
+        src="images/corona3.png" height="60px" width="60"></span>na Virus</h1>
       </div>
     </div>
 
@@ -309,29 +388,19 @@
       <h1 class="count"><?php echo $coronadata[0]['deaths'] ?></h1>
       <p>People Died</p>
     </div>
-<!--
 
-  <div class="">
-    <h1 class="count">512</h1>
-    <p>Active Cases</p>
-  </div>
-
-  <div class="">
-    <h1 class="count">40</h1>
-    <p>Cured/Discharged cases</p>
-  </div>
-
-
--->
 </div>
 </div>
 </section>
 
+<a class="bdreport text-uppercase" style="font-color:white;
+background-color:red; font-size:20px;" href="BangladeshCoronaLive.php"><div class="coloring">Click for</div><div class="coloring1" >
 
+ Live update of BANGLADESH!</a></div>
 
 
 <section class="corona_update1">
-  <div class="mb-3">
+  <div class="mb-2 pt-5">
       <h3 class="text-uppercase text-center" style="color:darkred"> Panel Of Covid-19 <span color="#8B0000">LIVE</span> UPDATES ALL OVER THE WORLD!</h3>
   </div>
 
@@ -340,9 +409,9 @@
     <table class="table table-bordered table-striped text-center" id="updatePanel">
       <tr>
         <th style="background-color:#4bb7d8;">Total Confirmed</th>
-        <th style="background-color:#4bb7d8;">Total Recovered</th>
+        <th style="background-color:#32CD32;">Total Recovered</th>
         <th style="background-color:#4bb7d8;">Critical Patient</th>
-        <th style="background-color:#4bb7d8;">Total Deaths</th>
+        <th style="background-color:#FF0000;">Total Deaths</th>
       </tr>
     </table>
 
@@ -351,10 +420,10 @@
 </section>
 
 <!--**********************************Searching************************************-->
-<div class="search-box search-box-responsive-md">
-<form method="post">
-  <input class="form-control md-sm-2" type="search" placeholder="Search Your Country Name to know the position" aria-label="Search" name="value" autocomplete="off">
-  <button class="btn btn-lg btn-primary btn-block my-2 my-sm-0" type="submit" name="search">Search</button>
+<div class="searchreport search-box-responsive-md pl-5 pr-5 pb-5">
+<form method="post" id="searchreport">
+  <input class="form-control md-sm-2" type="search" placeholder="Search Your Country Name to know the position" aria-label="Search" name="value" autocomplete="off" style="background-color: #eff6f7 ;">
+  <button class="btn btn-lg btn-primary btn-block my-2 my-sm-0" type="submit" name="search" style="background-color:#3f3f3f">Search</button>
 </form>
 </div>
 
@@ -383,12 +452,16 @@ if (isset($_POST['search'])) {
 
      <table class="table table-bordered table-striped text-center" style="background-color: #4bb7d8;">
        <tr>
-         <th>Position</th>
-         <th>Country</th>
-         <th>Confirmed</th>
-         <th>Recovered</th>
-         <th>Critical Situation</th>
-         <th>Deaths</th>
+         <th style="background-color:#3f3f3f;color:white;">Position</th>
+         <th style="background-color:#3f3f3f;color:white;">Country</th>
+         <th style="background-color:#3f3f3f;color:white;">New in 24hours</th>
+         <th style="background-color:#3f3f3f;color:white;">Active Cases</th>
+         <th style="background-color:#3f3f3f;color:white;">Critical Situation</th>
+         <th style="background-color:#3f3f3f;color:white;">Recovered</th>
+         <th style="background-color:#3f3f3f;color:white;">Total</th>
+         <th style="background-color:#3f3f3f;color:white;">New Deaths in 24 hours</th>
+         <th style="background-color:#3f3f3f;color:white;">Total Deaths</th>
+         <th style="background-color:#3f3f3f;color:white;">Total Tests</th>
        </tr>
 
  <?php
@@ -397,7 +470,7 @@ if (isset($_POST['search'])) {
  $curl = curl_init();
 
  curl_setopt_array($curl, array(
-   CURLOPT_URL => "https://covid-19-data.p.rapidapi.com/country/all?format=json",
+   CURLOPT_URL => "https://covid-193.p.rapidapi.com/statistics",
    CURLOPT_RETURNTRANSFER => true,
    CURLOPT_FOLLOWLOCATION => true,
    CURLOPT_ENCODING => "",
@@ -406,8 +479,8 @@ if (isset($_POST['search'])) {
    CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
    CURLOPT_CUSTOMREQUEST => "GET",
    CURLOPT_HTTPHEADER => array(
-     "x-rapidapi-host: covid-19-data.p.rapidapi.com",
-     "x-rapidapi-key: 1b42dc53e2msh0ed64461be9f32fp19c3bfjsndeb9e90516bd"
+     "x-rapidapi-host: covid-193.p.rapidapi.com",
+ 		"x-rapidapi-key: 578010d902msh40801f27237de52p126622jsne5d1d85f95e2"
    ),
  ));
 
@@ -423,51 +496,68 @@ if (isset($_POST['search'])) {
  //////////////////////////////////////////////
 
 
-              function insertion_Sort1($my_array)
+               function insertion_Sort1($my_array)
                {
-                 for($i=0;$i<253;$i++){
-                   $val = $my_array[$i];
-                   $j = $i-1;
-                   while($j>=0 && $my_array[$j] < $val){
-                     $my_array[$j+1] = $my_array[$j];
-                     $j--;
-                   }
-                   $my_array[$j+1] = $val;
+               for($i=1;$i<200;$i++){
+                 $val = $my_array[$i];
+                 $j = $i-1;
+                 while($j>0 && $my_array[$j] < $val){
+                   $my_array[$j+1] = $my_array[$j];
+                   $j--;
                  }
+                 $my_array[$j+1] = $val;
+               }
                return $my_array;
                }
                $j=0;
-               for ($i=0; $i < 253; $i++) {
+               for ($i=1; $i < 200; $i++) {
 
-                 $test_array[$i] = array($coronadata[$i]['confirmed'],$coronadata[$i]['recovered'],$coronadata[$i]['critical'],$coronadata[$i]['deaths'],$coronadata[$i]['country']);
-                 //$test_array1[$j] = array($coronadata[$i]['deaths'],$coronadata[$i]['country']);
-                 //$j+=1;
-
+                $test_array[$i] = array($coronadata['response']["$j"]['cases']['total'],$coronadata['response']["$j"]['cases']['recovered'],$coronadata['response']["$j"]['cases']['critical'],$coronadata['response']["$j"]['cases']['active'],$coronadata['response']["$j"]['cases']['new'],$coronadata['response']["$j"]['deaths']['total'],$coronadata['response']["$j"]['deaths']['new'],$coronadata['response']["$j"]['tests']['total'],$coronadata['response']["$j"]['country']);
+                $j++;
                }
-                 //echo "Original Array :\n";
-                 //echo implode(', ',$test_array);
-                 $a = insertion_Sort1($test_array);
+
+               $a = insertion_Sort1($test_array);
+                 echo "<pre>";
+                 //print_r($a);
 
 
 
+                  $statescount= 200 ;
 
-                  $statescount= 252 ;
-
-                  for ($i=0; $i < $statescount; $i++) {
-                    if (strtoupper($a[$i][4]) == strtoupper($_POST['value'])) {
+                  for ($i=2; $i < $statescount; $i++) {
+                    if (strtoupper($a[$i][8]) == strtoupper($_POST['value']) || strtoupper($a[$i][8]." ") == strtoupper($_POST['value'])){
 
                     ?>
                     <tr>
-                      <td style="background-color:#7a4a91;"><?php echo $i+1 ?></td>
-                      <td style="background-color:#7a4a91;"><?php echo $a[$i][4] ?></td>
-                      <td style="background-color:#4bb7d8;"><?php echo $a[$i][0] ?></td>
-                      <td style="background-color:#f36e23;"><?php echo $a[$i][1] ?></td>
+                      <td style="background-color:#7a4a91;"><?php echo $i-1 ?></td>
+                      <td style="background-color:#7a4a91;"><?php echo $a[$i][8] ?></td>
+                      <td style="background-color:#4bb7d8;"><?php echo $a[$i][4] ?></td>
+                      <td style="background-color:#32CD32;"><?php echo $a[$i][3] ?></td>
                       <td style="background-color:#9cc850;"><?php echo $a[$i][2] ?></td>
-                      <td style="background-color:#ff0000;"><?php echo $a[$i][3] ?></td>
+                      <td style="background-color:#32CD32;"><?php echo $a[$i][1] ?></td>
+                      <td style="background-color:#4bb7d8;"><?php echo $a[$i][0] ?></td>
+                      <td style="background-color:#ff0000;color:white;"><?php echo $a[$i][6] ?></td>
+                      <td style="background-color:#ff0000;color:white;"><?php echo $a[$i][5] ?></td>
+                      <td style="background-color:#4bb7d8;"><?php echo $a[$i][7] ?></td>
+                    </tr>
+                    <?php
+                  }elseif (" ".strtoupper($a[$i][8]) == strtoupper($_POST['value'])) {
+                    ?>
+                    <tr>
+                      <td style="background-color:#7a4a91;"><?php echo $i-1 ?></td>
+                      <td style="background-color:#7a4a91;"><?php echo $a[$i][8] ?></td>
+                      <td style="background-color:#4bb7d8;"><?php echo $a[$i][4] ?></td>
+                      <td style="background-color:#32CD32;"><?php echo $a[$i][3] ?></td>
+                      <td style="background-color:#9cc850;"><?php echo $a[$i][2] ?></td>
+                      <td style="background-color:#32CD32;"><?php echo $a[$i][1] ?></td>
+                      <td style="background-color:#4bb7d8;"><?php echo $a[$i][0] ?></td>
+                      <td style="background-color:#ff0000;color:white;"><?php echo $a[$i][6] ?></td>
+                      <td style="background-color:#ff0000;color:white;"><?php echo $a[$i][5] ?></td>
+                      <td style="background-color:#4bb7d8;"><?php echo $a[$i][7] ?></td>
 
                     </tr>
                     <?php
-                    }
+                  }
 
       }
 
@@ -482,109 +572,114 @@ if (isset($_POST['search'])) {
  ?>
 
 
+
 <!--*********** LASTEST UPDATES ************* -->
-<section class="corona_update1 container-fluid pt-5" id="statewise">
-  <div class="my-5">
-      <h3 class="text-uppercase text-center text-uppercase" style="color:darkred">Report of <span color="#8B0000"> covid-19</span> around the WORLD!</h3>
+<section class="mainTable pt-3 pb-3 ">
+  <div class="rightside w-100 h-100 d-flex justify-content-center align-items-center">
+      <h3 class="text-uppercase text-center text-uppercase" style="color:darkred">Report of <span color="#8B0000"> covid-19</span> Around The World!</h3>
   </div>
 
-  <div class="table-responsive-md">
+  <div class="table-responsive-md" id="scrolltable">
 
-    <table class="table table-bordered table-striped text-center" style="background-color: #4bb7d8;">
+    <table class="table table-bordered table-striped text-center" style="background-color: #4bb7d8;" id="headtable">
       <tr>
-        <th>Position</th>
-        <th>Country</th>
-        <th>Confirmed</th>
-        <th>Recovered</th>
-        <th>Critical Situation</th>
-        <th>Deaths</th>
+        <th style="background-color:#3f3f3f;color:white;">Position</th>
+        <th style="background-color:#3f3f3f;color:white;">Country</th>
+        <th style="background-color:#3f3f3f;color:white;">New in 24hours</th>
+        <th style="background-color:#3f3f3f;color:white;">Active Cases</th>
+        <th style="background-color:#3f3f3f;color:white;">Critical Situation</th>
+        <th style="background-color:#3f3f3f;color:white;">Recovered</th>
+        <th style="background-color:#3f3f3f;color:white;">Total</th>
+        <th style="background-color:#3f3f3f;color:white;">New Deaths in 24 hours</th>
+        <th style="background-color:#3f3f3f;color:white;">Total Deaths</th>
+        <th style="background-color:#3f3f3f;color:white;">Total Tests</th>
       </tr>
-
 <?php
 
 
 $curl = curl_init();
 
 curl_setopt_array($curl, array(
-	CURLOPT_URL => "https://covid-19-data.p.rapidapi.com/country/all?format=json",
-	CURLOPT_RETURNTRANSFER => true,
-	CURLOPT_FOLLOWLOCATION => true,
-	CURLOPT_ENCODING => "",
-	CURLOPT_MAXREDIRS => 10,
-	CURLOPT_TIMEOUT => 30,
-	CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-	CURLOPT_CUSTOMREQUEST => "GET",
-	CURLOPT_HTTPHEADER => array(
-		"x-rapidapi-host: covid-19-data.p.rapidapi.com",
-		"x-rapidapi-key: 1b42dc53e2msh0ed64461be9f32fp19c3bfjsndeb9e90516bd"
-	),
+  CURLOPT_URL => "https://covid-193.p.rapidapi.com/statistics",
+  CURLOPT_RETURNTRANSFER => true,
+  CURLOPT_FOLLOWLOCATION => true,
+  CURLOPT_ENCODING => "",
+  CURLOPT_MAXREDIRS => 10,
+  CURLOPT_TIMEOUT => 30,
+  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+  CURLOPT_CUSTOMREQUEST => "GET",
+  CURLOPT_HTTPHEADER => array(
+    "x-rapidapi-host: covid-193.p.rapidapi.com",
+		"x-rapidapi-key: 578010d902msh40801f27237de52p126622jsne5d1d85f95e2"
+  ),
 ));
 
 $response = curl_exec($curl);
 
 
 curl_close($curl);
-$coronadata = json_decode($response,True);
+$coronadatabd = json_decode($response,True);
 echo "<pre>";
 
-//print_r($coronadata);
-
-//////////////////////////////////////////////
+//print_r($coronadatabd);
 
 
-               function insertion_Sort($my_array)
+              function insertion_Sort($my_array)
               {
-              	for($i=0;$i<253;$i++){
-              		$val = $my_array[$i];
-              		$j = $i-1;
-              		while($j>=0 && $my_array[$j] < $val){
-              			$my_array[$j+1] = $my_array[$j];
-              			$j--;
-              		}
-              		$my_array[$j+1] = $val;
-              	}
+              for($i=1;$i<200;$i++){
+                $val = $my_array[$i];
+                $j = $i-1;
+                while($j>0 && $my_array[$j] < $val){
+                  $my_array[$j+1] = $my_array[$j];
+                  $j--;
+                }
+                $my_array[$j+1] = $val;
+              }
               return $my_array;
               }
               $j=0;
-              for ($i=0; $i < 253; $i++) {
+              for ($i=1; $i < 200; $i++) {
 
-                $test_array[$i] = array($coronadata[$i]['confirmed'],$coronadata[$i]['recovered'],$coronadata[$i]['critical'],$coronadata[$i]['deaths'],$coronadata[$i]['country']);
-                //$test_array1[$j] = array($coronadata[$i]['deaths'],$coronadata[$i]['country']);
-                //$j+=1;
-
+               $test_array[$i] = array($coronadatabd['response']["$j"]['cases']['total'],$coronadatabd['response']["$j"]['cases']['recovered'],$coronadatabd['response']["$j"]['cases']['critical'],$coronadatabd['response']["$j"]['cases']['active'],$coronadatabd['response']["$j"]['cases']['new'],$coronadatabd['response']["$j"]['deaths']['total'],$coronadatabd['response']["$j"]['deaths']['new'],$coronadatabd['response']["$j"]['tests']['total'],$coronadatabd['response']["$j"]['country']);
+               $j++;
               }
-                //echo "Original Array :\n";
-                //echo implode(', ',$test_array);
-                $a = insertion_Sort($test_array);
-                //print_r(insertion_Sort($test_array1));
+
+              $a = insertion_Sort($test_array);
+              echo "<pre>";
+              //print_r($a);
+
+              $statescount = 200 ;
+
+              for ($i=2; $i < $statescount; $i++) {
 
 
-                $statescount= 252 ;
-                $pos=1;
-                for ($i=0; $i <= $statescount; $i++) {
-                ?>
-                <tr>
-                <td style="background-color:#7a4a91;"><?php echo $pos ?></td>
-                <td style="background-color:#7a4a91;"><?php echo $a[$i][4] ?></td>
-                <td style="background-color:#4bb7d8;"><?php echo $a[$i][0] ?></td>
-                <td style="background-color:#f36e23;"><?php echo $a[$i][1] ?></td>
-                <td style="background-color:#9cc850;"><?php echo $a[$i][2] ?></td>
-                <td style="background-color:#ff0000;"><?php echo $a[$i][3] ?></td>
-                <?php  $pos ++;
-                ?>
-                </tr>
-
-  <?php
-  }
+                    ?>
+                    <tr>
+                      <td style="background-color:#4bb7d8;"><?php echo $i-1 ?></td>
+                      <td style="background-color:#9cc850;"><?php echo $a[$i][8] ?></td>
+                      <td style="background-color:#4bb7d8;"><?php echo $a[$i][4] ?></td>
+                      <td style="background-color:#32CD32;"><?php echo $a[$i][3] ?></td>
+                      <td style="background-color:#9cc850;"><?php echo $a[$i][2] ?></td>
+                      <td style="background-color:#32CD32;"><?php echo $a[$i][1] ?></td>
+                      <td style="background-color:#4bb7d8;"><?php echo $a[$i][0] ?></td>
+                      <td style="background-color:#ff0000;color:white;"><?php echo $a[$i][6] ?></td>
+                      <td style="background-color:#ff0000;color:white;"><?php echo $a[$i][5] ?></td>
+                      <td style="background-color:#4bb7d8;"><?php echo $a[$i][7] ?></td>
 
 
-  ?>
+                    </tr>
+                    <?php
 
-      </table>
+
+      }
+
+?>
+    </table>
 
     </div>
 
-  </section>
+</section>
+
 
 <!-- *********** About----------->
 <div class="container-fluid sub_section pt-5 pb-5 " id="aboutid">
@@ -864,6 +959,18 @@ echo "<pre>";
 <div class="container scrolltop float-right pr-5">
     <i class="fa fa-arrow-up" onclick="topFunction()" id="mybtn"></i>
 </div>
+
+
+<!------------ Visitor Count--------->
+
+  <script class="VisitorCount" type="text/javascript" src="https://www.free-counters.org/count/5o8e"></script><br>
+   <a  href='https://xn--besucherzhler-counter-e2b.com/'>.</a>
+   <script class="VisitorCount" type='text/javascript' src='https://whomania.com/ctr?id=67dbe7e1637330f0a51cb30f09bf3a603258c6b6'></script>
+
+
+
+
+
 <!---FOOTER---------->
 <footer class="mt-5">
   <div class="footer_style text-white text-center container-fluid">
@@ -958,10 +1065,10 @@ $coronadata = json_decode($response,True);
 
 <?php
 
-$server = 'localhost';
-$user = 'root';
-$password='';
-$db = 'coronatrackingdb';
+$server = 'sql300.epizy.com';
+$user = 'epiz_25589447';
+$password='v27qcjt8';
+$db = 'epiz_25589447_deadlydesease';
 
 $con = mysqli_connect($server, $user, $password, $db);
 
@@ -987,7 +1094,7 @@ if(isset($_POST['submit'])){
       $chk .= $chk1."," ;
     }
 
-    $insertquery = "insert into coronacase(username, patientname, symp, phone, address, District, message) values('$username','$patientname','$chk','$Phone','$Address','$District','$msg') ";
+    $insertquery = "insert into deadlydesease(username, patientname, symp, phone, address, District, message) values('$username','$patientname','$chk','$Phone','$Address','$District','$msg') ";
 
     $query = mysqli_query($con, $insertquery);
 
