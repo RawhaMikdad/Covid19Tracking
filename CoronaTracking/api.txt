@@ -1,6 +1,4 @@
-Array
-(
-    [0] => Array
+Array([0] => Array
         (
             [States] => Dhaka (District)
             [No_of_cases] => 48
