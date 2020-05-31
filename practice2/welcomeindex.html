@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
+    <title>EnvidStat</title>
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+
+    <!--Scroll reveal CDN--->
+    <script href="https://unpkg.com/scrollreveal"></script>
+
+
+    <!--Custom Style
+    <link rel="stylesheet" href="./css/style.css">
+    -->
+
+    <style media="screen">
+
+
+
+
+    @import url "https://fonts.googleapis.com/css?family=Cabin|Herr+Von+Muellerhoff|Source+Sans+Pro:400,900&display=swap";
+
+
+    /*Global Styles */
+
+
+
+    :root{
+      --main-font:'Source Sans Pro', sans-sarif;
+      --secondary-font:'Herr Von Muellerhoff', cursive;
+      --body-font:'Cabin', sans-serif;
+      --main-font-color-dark:#252525;
+      --secondary-font-color: #c59d5f;
+      --body-font-color: #515151;
+      --red-font-color: #D00000  ;
+    }
+
+    html{
+      font-family: var(--body-font);
+      font-size: 10px;
+      color: var(--body-font-color);
+      scroll-behavior: smooth;
+
+    }
+
+
+    a{
+      text-decoration: none;
+    }
+
+    p{
+      font-size: 1.6rem;
+    }
+
+    .container{
+      width: 100%;
+      max-width: 122.5rem;
+      margin: 0 auto;
+      padding: 0 2.4rem;
+    }
+
+    /*................. Header ................*/
+
+    header{
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      background-image: linear-gradient(to bottom, rgba(60, 40, 30, .5), transparent);
+    }
+
+    body{
+      background-color: #031321;
+    }
+
+    body a{
+      text-decoration: none;
+    }
+
+    body .nav-brand{
+      text-align: center;
+      font-size: 40px;
+      text-decoration: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .rightside img{
+      animation: CoronaRotate 3s linear infinite;
+    }
+
+    @keyframes CoronaRotate {
+      0% {transform: rotate(0); }
+      100% {transform: rotate(360deg);}
+
+    }
+
+    /*Global Clases*/
+
+    .hero{
+      width: 100%;
+      height: 100vh;
+      background: #031321;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      text-align: center;
+
+    }
+
+    .sub-headline{
+      font-size: 8.5rem;
+      font-family: var(--secondary-font);
+      color: var(--red-font-color);
+      font-weight: 100;
+      line-height: .4;
+      letter-spacing: 2px;
+
+    }
+
+    .first-letter{
+      text-transform: uppercase;
+      font-size: 10.3rem;
+    }
+
+
+    .headline{
+      color: red;
+      font-size: 3.7rem;
+      font-family: var(--main-font);
+      text-transform: uppercase;
+      font-weight: 900;
+      letter-spacing: .5rem;
+      margin-right: -.5rem;
+
+    }
+
+
+    .separator{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .line{
+      width: 100%;
+      max-width: 8.5rem;
+      height: .25rem;
+      background-color: #fff;
+      position: relative;
+
+    }
+
+    .line-right::before,
+    .line-left::before{
+        content: '';
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        border: .6rem solid transparent;
+    }
+
+    .line-right::before{
+      border-right-color: #fff;
+      right: 0;
+    }
+    .line-left::before{
+      border-left-color: #fff;
+      left: 0;
+    }
+
+    .asterisk{
+      font-size: 1.2rem;
+      color: var(--secondary-font-color);
+      margin: 0 1.6rem;
+    }
+
+    .headline-description h5{
+      color: yellow;
+      font-size: 1.4rem;
+      font-weight: 100;
+      text-transform: uppercase;
+      margin-bottom: 1.2rem;
+      letter-spacing: 3px;
+      margin-right: -3px;
+    }
+
+    .btn{
+      display: inline-block;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-right: -2px;
+    }
+
+    .testing{
+
+    /*font-size: 1.1rem;
+      background-color: #2196f3;
+      padding: .9rem 1.8rem;
+      color: var(--body-font-color);
+      border-radius: .4rem;
+      transition: background-color .5s;
+      */
+
+      position: relative;
+      display: inline-block;
+      padding: 15px 30px;
+      color: #2196f3;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      font-size: 25px;
+      overflow: hidden;
+      transition: 0.2s;
+    }
+
+
+    .testing:hover{
+      color: #255784;
+      background: #2196f3;
+      box-shadow: 0 0 10px #007EA7, 0 0 40px #007EA7, 0 0 80px #007EA7;
+      transition-delay: .5s;
+    }
+
+
+    a span{
+      position: absolute;
+      display: block;
+    }
+
+    a span:nth-child(1){
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 2px;
+      background: linear-gradient(90deg,transparent,#007EA7);
+    }
+
+    a:hover span:nth-child(1){
+      left: 100%;
+      transition: 1s;
+
+    }
+
+    a span:nth-child(3){
+      bottom: 0;
+      right: -100%;
+      width: 100%;
+      height: 2px;
+      background: linear-gradient(270deg,transparent,#007EA7);
+    }
+
+    a:hover span:nth-child(3){
+      right: 100%;
+      transition: 1s;
+      transition-delay: 0.2s;
+
+    }
+
+    a span:nth-child(2){
+      top: -100%;
+      right: 0;
+      width: 2px;
+      height: 100%;
+      background: linear-gradient(180deg,transparent,#007EA7);
+    }
+
+    a:hover span:nth-child(2){
+      top: 100%;
+      transition: 1s;
+      transition-delay: 0.3s;
+
+    }
+
+    a span:nth-child(4){
+      bottom: -100%;
+      left: 0;
+      width: 2px;
+      height: 100%;
+      background: linear-gradient(360deg,transparent,#007EA7);
+    }
+
+    a:hover span:nth-child(4){
+      bottom: 100%;
+      transition: 1s;
+      transition-delay: 0.4s;
+
+    }
+
+    </style>
+
+
+
+
+  </head>
+
+
+  <body>
+    <div class="header" id="topheader">
+
+
+
+
+
+
+
+
+      </div>
+
+
+
+
+
+
+      <section class="hero" id="hero">
+
+
+        <div class="container">
+          <!--
+          <h2 class="sub-headline">
+            <span class="first-letter">W</span>elcome
+          </h2>
+        -->
+          <h1 style="font-size:40px;"><span style="color:#F0EBD8;">Envid</span><span style="color:#007EA7!important;">Stat</span></h1>
+          <div class="headline-description rightside">
+            <div class="separator">
+                <div class="line line-left"></div>
+                    <div class="asterisk">
+                      <i class="fas fa-asterisk"></i>
+                    </div>
+                    <div class="line line-right"></div>
+            </div>
+
+            <div class="single-animation">
+              <h5 class="pt-5 pb-5">A Web-App with visualization <br> For <br> Real-Time Data of COVID-19 </h5>
+
+              <a class="testing" href="index.html" style="text-decoration:none;">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Click To Explore
+              </a>
+
+            </div>
+            <img src="./img/corona.png" alt="" style="height:100px; width:100px; align-items:center;margin-top:40px;">
+
+          </div>
+        </div>
+
+
+
+      </section>
+
+
+
+      <!--Hero Section-->
+
+
+    <!---Navigation-->
+
+     <!---Navigation-->
+    <script src="./js/main.js" type="text/javascript">
+
+    </script>
+  </body>
+
+
+</html>
